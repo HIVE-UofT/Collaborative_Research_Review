@@ -1,0 +1,162 @@
+pid,diseases,modalities,disease_list,refined_general_category_final
+32943286,"[""lung transplant rejection"", ""graft loss""]","[""transbronchial biopsies"", ""mucosal biopsies"", ""gene expression microarrays""]","['lung transplant rejection', 'graft loss']",Transplant and Surgery
+29886760,"[""Severe Neonatal Morbidity"", ""neonatal death""]","[""Maternal age"", ""reason for admission"", ""Gestational age"", ""optimal steroid use""]","['Severe Neonatal Morbidity', 'neonatal death']",Neonatal and Pregnancy-Related Conditions
+30262516,"[""Cardiovascular"",""obstructive coronary artery disease""]","[""SPECT Myocardial Perfusion Imaging"", ""MPI""]","['Cardiovascular', 'obstructive coronary artery disease']",Cardiovascular and Vascular Diseases
+36332954,"[""anxiety disorders"",""mental health""]","[""Self-report questionnaires"", ""Semi-structured qualitative interviews""]","['anxiety disorders', 'mental health']",Psychiatric and Mental Health Disorders
+30807586,"[""Juvenile Idiopathic Arthritis""]","[""Clinical data"", ""Joint involvement data"", ""laboratory parameters"", ""immunological markers""]",['Juvenile Idiopathic Arthritis'],Musculoskeletal and Rheumatic Disorders
+38469689,"[""Coronary artery disease""]","[""Quantitative coronary plaque analysis"", ""CT angiography"", ""FFRCT"",""CT scan""]",['Coronary artery disease'],Cardiovascular and Vascular Diseases
+31150083,"[""In-Hospital Cardiac Arrest""]","[""electrocardiogram"", ""neurological status"",""ECG"", ""CPC"",""Clinical data""]",['In-Hospital Cardiac Arrest'],Cardiovascular and Vascular Diseases
+29550305,"[""obstructive coronary artery disease""]","[""myocardial perfusion imaging (MPI)"", ""MPI""]",['obstructive coronary artery disease'],Cardiovascular and Vascular Diseases
+29581092,"[""Parkinson's disease"", ""PD""]","[""typing data"", ""keystroke metrics""]","[""Parkinson's disease"", 'PD']",Neurological Disorders
+29664902,"[""ADHD"", ""Autism"",""neurodevelopmental disorders""]","[""MRI"", ""fMRI""]","['ADHD', 'Autism', 'neurodevelopmental disorders']",Neurological Disorders
+30025851,"[""pharmaco-resistant focal epilepsies"", ""epilepsy""]","[""intracranial electroencephalography (iEEG)"", ""cortico-cortical evoked potentials"",""iEEG"", ""CCEP""]","['pharmaco-resistant focal epilepsies', 'epilepsy']",Neurological Disorders
+33233605,"[""dementia""]","[""social interaction, robot interventions""]",['dementia'],Neurological Disorders
+30171211,"[""bipolar disorders""]","[""MRI"", ""structural MRI""]",['bipolar disorders'],Psychiatric and Mental Health Disorders
+38563856,"[""brain metastases"", ""primary cancers"",""breast cancer"", ""lung cancer"", ""melanoma"", ""renal cancer"", ""colon cancer""]","[""spatial distribution"", ""spatial coordinates"", ""age at treatment"", ""target volume"",""sex""]","['brain metastases', 'primary cancers', 'breast cancer', 'lung cancer', 'melanoma', 'renal cancer', 'colon cancer']",Respiratory and Lung Conditions
+30461117,"[""adolescent alcohol use""]","[""psychopathology"", ""personality clusters""]",['adolescent alcohol use'],Other
+30523141,"[""medulloblastoma""]","[""MR imaging"", ""T1-weighted images"", ""T2-weighted images"", ""MRI"", ""intensity-based histograms"", ""tumor edge-sharpness"", ""Gabor features"", ""local area integral invariant features""]",['medulloblastoma'],Cancer and Oncology
+30773443,"[""lung transplant rejection""]","[""biopsy"", ""transcriptomics"","" ""gene expression microarrays""]",['lung transplant rejection'],Transplant and Surgery
+30947300,"[""degenerative cervical myelopathy""]","[""clinical variables"", ""patient demographics"", ""comorbidities""]",['degenerative cervical myelopathy'],Musculoskeletal and Rheumatic Disorders
+31055684,,,[],Other
+33753312,"[""Depression""]","[""clinical variables"", ""cognitive variables"", ""environmental variables"", ""structural MRI""]
+",['Depression'],Psychiatric and Mental Health Disorders
+31352417,"[""Cardiovascular Disease"", ""Breast Cancer""]","[""CT Scans""]","['Cardiovascular Disease', 'Breast Cancer']",Cancer and Oncology
+31393626,"[""Epilepsy""]","[""diffusion tensor imaging (DTI)"", ""resting-state magnetoencephalography (MEG)"", ""clinical covariates""]",['Epilepsy'],Neurological Disorders
+31417602,"[""rare genetic diseases""]","[""facial photographs"", ""clinical traits"", ""genetic information""]",['rare genetic diseases'],Rare Diseases
+31472262,"[""Vascular disease"", ""Dementia""]","[""FLAIR MRI"", ""clinical data""]","['Vascular disease', 'Dementia']",Neurological Disorders
+31622838,"[""Myocardial Infarction""]","[""Cine MR"",""MRI""]",['Myocardial Infarction'],Cardiovascular and Vascular Diseases
+31728792,"[""intrahepatic cholangiocarcinoma"",""ICC""]","[""clinical data""]","['intrahepatic cholangiocarcinoma', 'ICC']",Cancer and Oncology
+33772335,"[""cervical cancer""]","[""PET images""]",['cervical cancer'],Cancer and Oncology
+31800431,"[""surgical performance""]","[""Virtual reality"", ""Simulation""]",['surgical performance'],Surgical and Trauma Conditions
+31845024,"[""lower gastrointestinal bleeding""]","[""clinical data""]",['lower gastrointestinal bleeding'],Other
+31981624,"[""asthma"", ""immune response disorders""]","[""genomics"", ""imputed HLA alleles"",""total serum IgE (tIgE)""]","['asthma', 'immune response disorders']",Respiratory and Lung Conditions
+37741065,"[""epilepsy"", ""cognitive flexibility impairments""]","[""stereoelectroencephalography (sEEG)"", ""local-field potentials (LFPs)"", ""EEG""]","['epilepsy', 'cognitive flexibility impairments']",Neurological Disorders
+32161279,"[""head and neck cancer""]","[""radiomics"", ""CT images""]",['head and neck cancer'],Cancer and Oncology
+32165206,"[""malignant pleural mesothelioma"", ""transitional mesothelioma""]","[""digital pathology"", ""histopathologic slides"", ""RNA sequencing""]","['malignant pleural mesothelioma', 'transitional mesothelioma']",Rare Diseases
+38542033,"[""Acute Respiratory Distress Syndrome""]","[""Clinical Data"", ""Physiological Monitoring Data""]",['Acute Respiratory Distress Syndrome'],Respiratory and Lung Conditions
+32174330,"[""Heart failure""]","[""Cardiac imaging"",""Cardiac MRI""]",['Heart failure'],Cardiovascular and Vascular Diseases
+32304875,"[""heart failure""]","[""electronic medical records"", ""ICD codes"", ""discharge summaries""]",['heart failure'],Cardiovascular and Vascular Diseases
+32767763,"[""epilepsy"", ""neurodevelopmental disorders""]","[""EEG"", ""MRI"", ""genomic data"", ""clinical data"", ""fMRI""]","['epilepsy', 'neurodevelopmental disorders']",Neurological Disorders
+33962603,"[""respiratory disorders"", ""COPD"", ""Asthma"", ""Interstitial lung disorders"", ""ARDS"", ""Pneumonia""]","[""Clinical data"", ""Ventilation parameters"", ""Serum creatinine"", ""Serum bilirubin"", ""pH"", ""PaCO2""]","['respiratory disorders', 'COPD', 'Asthma', 'Interstitial lung disorders', 'ARDS', 'Pneumonia']",Respiratory and Lung Conditions
+32673230,,"[""Consultation notes""]",[],Other
+32719123,"[""relationship quality""]","[""self-report data"", ""longitudinal data""]",['relationship quality'],Other
+32816765,"[""pediatric brain tumors"",""pediatric posterior fossa tumors"", ""diffuse midline glioma"", ""medulloblastoma"", ""ependymoma"", ""pilocytic astrocytoma""]","[""MR imaging"", ""T2-weighted MRI"", ""MRI""]","['pediatric brain tumors', 'pediatric posterior fossa tumors', 'diffuse midline glioma', 'medulloblastoma', 'ependymoma', 'pilocytic astrocytoma']",Cancer and Oncology
+37789357,"[""acute care assessment""]","[""presenting complaint"", ""clinical modifiers"", ""age"", ""sex"", ""self-reported pain""]",['acute care assessment'],Critical Care
+38607809,"[""alcohol-associated hepatitis""]","[""clinical data"", ""biomarker data""]",['alcohol-associated hepatitis'],Infectious Diseases
+38621801,"[""chronic kidney disease""]","[""Clinical Data"", ""population-based data""]",['chronic kidney disease'],Kidney and Renal Diseases
+33033241,"[""Obsessive-Compulsive Disorder""]","[""Structural MRI"", ""MRI""]",['Obsessive-Compulsive Disorder'],Neurological Disorders
+33074746,"[""Autism Spectrum Disorder""]","[""Functional MRI"",""fMRI""]",['Autism Spectrum Disorder'],Neurological Disorders
+34863649,"[""heart failure""]","[""echocardiography"",""2D Videos"", ""echocardiograms""]",['heart failure'],Cardiovascular and Vascular Diseases
+34864143,"[""chronic obstructive pulmonary disease""]","[""EMR data"", ""clinical data""]",['chronic obstructive pulmonary disease'],Respiratory and Lung Conditions
+34104876,"[""preterm birth""]","[""metabolomic markers"", ""birth weight"", ""sex"", ""clinical data""]",['preterm birth'],Neonatal and Pregnancy-Related Conditions
+34131749,"[""Peripheral Nerve Sheath Tumors"",""PNSTs""]","[""MRI"", ""radiomics data"", ""clinical data""]","['Peripheral Nerve Sheath Tumors', 'PNSTs']",Rare Diseases
+38456877,"[""coronary artery disease"", ""cardiovascular disease""]","[""CT attenuation imaging"", ""myocardial perfusion imaging"",""CT scan""]","['coronary artery disease', 'cardiovascular disease']",Cardiovascular and Vascular Diseases
+34228341,"[""coronary artery disease""]","[""SPECT imaging"", ""clinical variables"", ""myocardial perfusion imaging (MPI)""]",['coronary artery disease'],Cardiovascular and Vascular Diseases
+34773974,"[""Multiple Sclerosis"", ""Psoriasis"", ""Axial Spondyloarthritis"", ""Psoriatic arthritis"", ""Rheumatoid arthritis""]","[""Clinical trial data"", ""MRI imaging"", ""Genomic data"", ""Proteomic data"", ""Transcriptomic data""]","['Multiple Sclerosis', 'Psoriasis', 'Axial Spondyloarthritis', 'Psoriatic arthritis', 'Rheumatoid arthritis']",Neurological Disorders
+37813086,"[""Aortic arch"",""embolic stroke of undetermined source"", ""aortic arch atherosclerosis""]","[""computed tomography angiography"", ""CT""]","['Aortic arch', 'embolic stroke of undetermined source', 'aortic arch atherosclerosis']",Cardiovascular and Vascular Diseases
+38598191,"[""frailty"", ""postoperative complications""]","[""CT imaging"", ""electronic health records"",""CT""]","['frailty', 'postoperative complications']",Transplant and Surgery
+34829396,"[""Lung Conditions""]","[""Lung Ultrasound""]",['Lung Conditions'],Respiratory and Lung Conditions
+34710675,"[""Major Depressive Disorder (MDD)""]","[""T1-weighted MRI scans"",""MRI""]",['Major Depressive Disorder (MDD)'],Psychiatric and Mental Health Disorders
+34810001,"[""invasive pneumococcal disease""]","[""laboratory-confirmed cases"",""clinical data""]",['invasive pneumococcal disease'],Infectious Diseases
+35006495,"[""disease on chest radiographs (CXR)"", ""thoracic disease""]","[""Chest X-rays (CXR)"", ""Frontal images (AP/PA)""]","['disease on chest radiographs (CXR)', 'thoracic disease']",Other
+35021305,"[""Infertility"", ""Varicocele""]","[""Clinical Data"", ""Hormonal Data"", ""Semen Analysis Data""]","['Infertility', 'Varicocele']",Reproductive Health
+35138012,"[""Alzheimer's disease"", ""Mild cognitive impairment""]","[""MRI""]","[""Alzheimer's disease"", 'Mild cognitive impairment']",Neurological Disorders
+35225756,"[""bipolar disorder""]","[""genetic data"", ""clinical data""]",['bipolar disorder'],Psychiatric and Mental Health Disorders
+37839909,"[""Major Depressive Disorder""]","[""clinical data"", ""demographic data""]",['Major Depressive Disorder'],Psychiatric and Mental Health Disorders
+35322668,"[""Acute Myocardial Infarction""]","[""Electronic Health Records (EHR)"", ""Clinical Notes"", ""Administrative Data""]",['Acute Myocardial Infarction'],Cardiovascular and Vascular Diseases
+35379856,"[""COVID-19""]","[""Chest X-rays""]",['COVID-19'],Respiratory and Lung Conditions
+35381453,"[""imputation""]","[""Clinical Records"", ""Imaging Data""]",['imputation'],Other
+35426912,"[""imputation""]","[""Electronic Health Records"", ""Population Brain Imaging"", ""Health Survey"", ""Intensive Care Surveys""]",['imputation'],Other
+35727872,"[""coronary artery disease""]","[""myocardial perfusion SPECT""]",['coronary artery disease'],Cardiovascular and Vascular Diseases
+37900603,"[""traumatic spinal cord injury""]","[""patient demographics"", ""baseline injury characteristics"", ""admission"", ""clinical data""]",['traumatic spinal cord injury'],Surgical and Trauma Conditions
+35967110,"[""Chronic Kidney Disease""]","[""Clinical Data"", ""Laboratory Data"",""administrative data""]",['Chronic Kidney Disease'],Kidney and Renal Diseases
+35990802,"[""COVID-19""]","[""Questionnaire data""]",['COVID-19'],Respiratory and Lung Conditions
+38858500,"[""steatosis""]","[""ultrasound images""]",['steatosis'],Other
+36135395,"[""Dengue""]","[""Clinical data"", ""Laboratory data""]",['Dengue'],Infectious Diseases
+36183620,"[""joint dislocations""]","[""radiographs""]",['joint dislocations'],Musculoskeletal and Rheumatic Disorders
+38930089,"[""infertility""]","[""electronic medical records (EMR)""]",['infertility'],Reproductive Health
+36378672,"[""heart failure"", ""coronary artery disease"", ""elevated left ventricular end diastolic pressure (LVEDP)""]","[""orthogonal voltage gradient (OVG)"", ""photoplethysmography (PPG)""]","['heart failure', 'coronary artery disease', 'elevated left ventricular end diastolic pressure (LVEDP)']",Cardiovascular and Vascular Diseases
+36394938,,"[""survey"", ""qualitative interviews""]",[],Other
+36442460,"[""Head and neck cancer""]","[""Clinical data"", ""CT scan""]",['Head and neck cancer'],Cancer and Oncology
+36469776,"[""Cancer""]","[""Plasma glycosaminoglycan profiles"", ""plasma and urine samples""]",['Cancer'],Cancer and Oncology
+36470898,"[""Glioblastoma""]","[""MRI"",""multi-parametric magnetic resonance imaging (mpMRI)"",""T1-weighted"", ""T2-weighted""]",['Glioblastoma'],Cancer and Oncology
+36508223,"[""traumatic anterior shoulder dislocations"",""recurrence after arthroscopic Bankart repair""]","[""demographics"", ""patient-specific factors"", ""disease-specific factors"", ""surgical characteristics""]","['traumatic anterior shoulder dislocations', 'recurrence after arthroscopic Bankart repair']",Surgical and Trauma Conditions
+36538363,"[""Delirium""]","[""Electronic health records"", ""Laboratory tests"", ""Medical image reports""]",['Delirium'],Neurological Disorders
+36544398,"[""Unfavorable cervical status"", ""High-risk pregnancies""]","[""Clinical data""]","['Unfavorable cervical status', 'High-risk pregnancies']",Neonatal and Pregnancy-Related Conditions
+36545250,"[""Chronic Kidney Disease"", ""Cardiovascular Disease""]","[""eGFR"", ""albuminuria"", ""demographics"", ""comorbid conditions""]","['Chronic Kidney Disease', 'Cardiovascular Disease']",Kidney and Renal Diseases
+36652661,"[""non-small cell lung cancer""]","[""CT scans"", ""radiation dose plans"",""Clinical data""]",['non-small cell lung cancer'],Respiratory and Lung Conditions
+30795962,"[""heart transplant rejection""]","[""molecular diagnostics"", ""biopsies"",""Clinical data""]",['heart transplant rejection'],Transplant and Surgery
+38212387,"[""asthma""]","[""Parental medical history"",""clinical data"",""Environmental data""]",['asthma'],Respiratory and Lung Conditions
+36867224,"[""mental health disorders"",""Depression"", ""Anxiety"", ""Suicidal tendencies""]","[""Sociodemographic data"",""Clinical mental health data"",""Beliefs and attitudes"",""Pandemic-specific factors""]","['mental health disorders', 'Depression', 'Anxiety', 'Suicidal tendencies']",Psychiatric and Mental Health Disorders
+36921979,"[""ST elevation myocardial infarction"", ""cancer""]","[""clinical data"", ""administrative data""]","['ST elevation myocardial infarction', 'cancer']",Cardiovascular and Vascular Diseases
+30872323,"[""transplant glomerulopathy""]","[""clinical data"", ""functional data"", ""immunologic data"", ""histologic data""]",['transplant glomerulopathy'],Transplant and Surgery
+36975097,"[""COVID-19""]","[""Blood samples"", ""Clinical data"",""Omicron BA.4/5 spike protein""]",['COVID-19'],Respiratory and Lung Conditions
+36995714,"[""mental health and cognitive development""]","[""Wearable device""]",['mental health and cognitive development'],Psychiatric and Mental Health Disorders
+37001040,"[""Breast Cancer""]","[""Structured clinical data"", ""Patient-reported outcomes"",""Genomic data""]",['Breast Cancer'],Cancer and Oncology
+37002267,"[""stroke"", ""aphasia""]","[""neuroimaging"", ""clinical data"",""MRI"",""diffusion-weighted imaging (DWI)"",""fluid-attenuated inversion recovery (FLAIR)""]","['stroke', 'aphasia']",Cardiovascular and Vascular Diseases
+37012019,"[""Acute aortic dissection""]","[""Clinical data"", ""Laboratory data"", ""Imaging data""]",['Acute aortic dissection'],Cardiovascular and Vascular Diseases
+37021933,"[""cancer""]","[""gene expression"", ""drug signatures""]",['cancer'],Cancer and Oncology
+37964440,"[""Obstructive Sleep Apnea""]","[""payer-sourced medical claims"", ""objective PAP usage data""]",['Obstructive Sleep Apnea'],Other
+37268414,"[""Pulmonary emphysema""]","[""CT scans"",""genomic data""]",['Pulmonary emphysema'],Respiratory and Lung Conditions
+37358938,"[""brain metastasis""]","[""magnetic resonance imaging"", ""T1w contrast-enhanced MRI"", ""MRI""]",['brain metastasis'],Cancer and Oncology
+38133915,"[""End-stage Kidney Disease"", ""Kidney Transplantation""]","[""Transplant data"", ""Clinical data"", ""Molecular-genetic matching"", ""Human Leukocyte Antigen (HLA)"", ""Donor-specific antibodies (DSA)"", ""Creatinine"", ""Proteinuria""]","['End-stage Kidney Disease', 'Kidney Transplantation']",Transplant and Surgery
+37397861,"[""Head and Neck Cancer""]","[""Radiographic Images"",""CT"",""Electronic Medical Records (EMR)""]",['Head and Neck Cancer'],Cancer and Oncology
+37410009,"[""Coronary artery disease"", ""Atherosclerosis""]","[""Coronary computed tomography angiography (CTA)"",""CT scans""]","['Coronary artery disease', 'Atherosclerosis']",Cardiovascular and Vascular Diseases
+37422576,"[""Non-small cell lung cancer""]","[""CT scans"", ""Clinical data""]",['Non-small cell lung cancer'],Respiratory and Lung Conditions
+37428478,"[""critical illness""]","[""electronic health records"",""clinical data""]",['critical illness'],Other
+37516990,"[""amyotrophic lateral sclerosis"", ""frontotemporal dementia""]","[""speech""]","['amyotrophic lateral sclerosis', 'frontotemporal dementia']",Neurological Disorders
+37543994,"[""COVID-19""]","[""Electronic health records""]",['COVID-19'],Respiratory and Lung Conditions
+37546399,"[""non-small cell lung cancer""]","[""CT scan"", ""radiomics""]",['non-small cell lung cancer'],Respiratory and Lung Conditions
+37555143,"[""Alzheimer's disease""]","[""Diffusion MRI""]","[""Alzheimer's disease""]",Neurological Disorders
+37555513,"[""Chronic Obstructive Pulmonary Disease (COPD)""]","[""Electronic Medical Record Data"",""Electronic Medical Records (EMR)""]",['Chronic Obstructive Pulmonary Disease (COPD)'],Respiratory and Lung Conditions
+37564037,"[""leprosy""]","[""clinical data"", ""demographic data"", ""genetic data""]",['leprosy'],Infectious Diseases
+37568646,"[""Non-Small Cell Lung Cancer""]","[""CT"", ""Radiomics""]",['Non-Small Cell Lung Cancer'],Respiratory and Lung Conditions
+37573646,"[""Amyotrophic Lateral Sclerosis""]","[""MRI"",""T1-weighted"", ""R2*"", ""FLAIR""]",['Amyotrophic Lateral Sclerosis'],Neurological Disorders
+37574164,"[""community-acquired pneumonia""]","[""antibiotic treatments""",['community-acquired pneumonia'],Respiratory and Lung Conditions
+38174138,"[""cardiometabolic disease"", ""spinal cord injury or disease""]","[""surveys""]","['cardiometabolic disease', 'spinal cord injury or disease']",Cardiovascular and Vascular Diseases
+37651262,"[""acute respiratory distress syndrome""]","[""clinical data"", ""ventilatory and oxygenation descriptors"", ""comorbidities"", ""demographics""]",['acute respiratory distress syndrome'],Respiratory and Lung Conditions
+37829182,"[""COVID-19""]","[""Administrative data"", ""Electronic health records"",""chest X-rays"",""laboratory data""]",['COVID-19'],Respiratory and Lung Conditions
+38604736,"[""Pediatric Low-Grade Neuroepithelial Tumor""]","[""MR imaging"", ""ADC imaging"",""MRI""]",['Pediatric Low-Grade Neuroepithelial Tumor'],Rare Diseases
+38605172,"[""psychosis"", ""schizophrenia""]","[""neuroimaging"", ""episodic memory"", ""social cognition"",""MRI""]","['psychosis', 'schizophrenia']",Psychiatric and Mental Health Disorders
+37872467,"[""heart disease""]","[""echocardiographic images""]",['heart disease'],Cardiovascular and Vascular Diseases
+38200511,"[""non-small cell lung cancer (NSCLC)""]","[""CT scans"",""Radiomics""]",['non-small cell lung cancer (NSCLC)'],Respiratory and Lung Conditions
+38893608,"[""lung sliding artifact""]","[""ultrasound""]",['lung sliding artifact'],Respiratory and Lung Conditions
+38016622,"[""aortic arch surgery""]","[""patient characteristics"", ""intraoperative decisions"", ""mortality and stroke risk factors""]",['aortic arch surgery'],Surgical and Trauma Conditions
+38021248,"[""Obsessive-Compulsive Disorder""]","[""video teletherapy"", ""digital messaging""]",['Obsessive-Compulsive Disorder'],Neurological Disorders
+38066031,"[""cervical cancer""]","[""digital images""]",['cervical cancer'],Cancer and Oncology
+38082372,"[""Alzheimer's disease""]","[""frailty factors""]","[""Alzheimer's disease""]",Neurological Disorders
+38108259,"[""Obstructive Coronary Artery Disease (CAD)""]","[""Coronary Calcium Score (CAC)"", ""age"", ""sex"", ""chest pain"", ""computed tomography angiography (CCTA)""]",['Obstructive Coronary Artery Disease (CAD)'],Cardiovascular and Vascular Diseases
+38149177,"[""Narcolepsy Type 1"", ""Narcolepsy Type 2"", ""Hypersomnolence""]","[""Sleep disorder diagnostic data"", ""Narcolepsy symptoms"", ""Epworth Sleepiness Scale"", ""Cataplexy"", ""Sleep Paralysis""]","['Narcolepsy Type 1', 'Narcolepsy Type 2', 'Hypersomnolence']",Neurological Disorders
+38212349,"[""Major Depressive Disorder""]","[""cortical measures"", ""subcortical measures"",""structural T1-weighted MRI"", ""MRI""]",['Major Depressive Disorder'],Psychiatric and Mental Health Disorders
+38156913,"[""Critically Ill"", ""Mechanical Ventilation""]","[""Nutritional Practice Survey"", ""Clinical Outcomes"", ""Mortality""]","['Critically Ill', 'Mechanical Ventilation']",Critical Care
+38161988,"[""Pertussis""]","[""Electronic Medical Records""]",['Pertussis'],Infectious Diseases
+38186562,"[""chronic kidney disease""]","[""Electronic health records"", ""Administrative data""]",['chronic kidney disease'],Kidney and Renal Diseases
+38193866,"[""colorectal cancer""]","[""Pathology data"",""histological tumour type"", ""lymphovascular invasion"", ""tumour grade""]",['colorectal cancer'],Cancer and Oncology
+38195644,"[""lung cancer""]","[""CT imaging"", ""radiomics""]",['lung cancer'],Respiratory and Lung Conditions
+38234807,"[""Progressive Supranuclear Palsy""]","["" Whole-Genome Sequencing (WGS)""]",['Progressive Supranuclear Palsy'],Neurological Disorders
+38384277,"[""Parkinson's disease""]","[""MRI"",""T1-weighted brain MRI"",""3D medical images""]","[""Parkinson's disease""]",Neurological Disorders
+38387384,"[""asthma""]","[""respiratory sounds"",""audio""]",['asthma'],Respiratory and Lung Conditions
+38290583,"[""Major Depressive Disorder"", ""Mental Illness""]","[""Structural Neuroimaging"", ""MRI""]","['Major Depressive Disorder', 'Mental Illness']",Neurological Disorders
+38316811,"[""peripheral artery disease (PAD)""]","[""Pre-operative demographic/clinical variables""]",['peripheral artery disease (PAD)'],Cardiovascular and Vascular Diseases
+38326559,"[""Obsessive-Compulsive Disorder""]","[""diffusion tensor imaging"", ""MRI""]",['Obsessive-Compulsive Disorder'],Neurological Disorders
+38332374,"[""psychosis"", ""schizophrenia""]","[""structural MRI""]","['psychosis', 'schizophrenia']",Psychiatric and Mental Health Disorders
+38355486,"[""acute kidney injury"", ""hyperkalemia"", ""hypoglycemia"", ""hyponatremia"", ""anemia"", ""neutropenia"", ""thrombocytopenia""]","[""electronic health records (EHRs)""]","['acute kidney injury', 'hyperkalemia', 'hypoglycemia', 'hyponatremia', 'anemia', 'neutropenia', 'thrombocytopenia']",Endocrine and Metabolic Disorders
+38370787,"[""COVID-19""]","[""electronic health records (EHRs)"", ""CT scans"", ""chest X-rays"",""laboratory data""]",['COVID-19'],Respiratory and Lung Conditions
+38937550,"[""General Clinical Predictions"", ""In-hospital Mortality"", ""Hypoglycemia"", ""Hyponatremia"", ""Hyperkalemia"", ""Thrombocytopenia"", ""Anemia""]","[""Electronic Health Records (EHR)""]","['General Clinical Predictions', 'In-hospital Mortality', 'Hypoglycemia', 'Hyponatremia', 'Hyperkalemia', 'Thrombocytopenia', 'Anemia']",Endocrine and Metabolic Disorders
+38402362,"[""atrial fibrillation""]","[""EHR"", ""Lab data""]",['atrial fibrillation'],Cardiovascular and Vascular Diseases
+38418987,"[""COVID-19"", ""bacterial pneumonia"", ""viral pneumonia""]","[""X-ray"", ""CT scan""]","['COVID-19', 'bacterial pneumonia', 'viral pneumonia']",Respiratory and Lung Conditions
+37999728,"[""abdominal aortic aneurysm (AAA)""]","[""CT scans""]",['abdominal aortic aneurysm (AAA)'],Cardiovascular and Vascular Diseases
+38075554,"[""chronic spontaneous urticaria""]","[""Electronic Health Records""]",['chronic spontaneous urticaria'],Other
+38441539,"[""psychosis"", ""schizophrenia"", ""mental disorders""]","[""genetic data"", ""self-reported measures"", ""parent-reported measures"", ""cognitive assessments""]","['psychosis', 'schizophrenia', 'mental disorders']",Psychiatric and Mental Health Disorders
+38777894,"[""colorectal cancer"", ""diverticular disease"", ""inflammatory bowel disease""]","[""demographic data"", ""clinical data""]","['colorectal cancer', 'diverticular disease', 'inflammatory bowel disease']",Cancer and Oncology
+38639373,"[""Peripheral Artery Disease""]","[""Clinical Data""]",['Peripheral Artery Disease'],Cardiovascular and Vascular Diseases
+38651539,"[""Oral Cancer""]","[""Electronic Health Records""]",['Oral Cancer'],Cancer and Oncology
+38664377,"[""schizophrenia""]","[""Structural MRI"", ""Clinical"", ""Sociodemographic"", ""Genetic""]",['schizophrenia'],Psychiatric and Mental Health Disorders
+38679324,"[""Major Depressive Disorder""]","[""Structural MRI (sMRI)"",""Clinical data"",""Neurocognitive assessments""]",['Major Depressive Disorder'],Psychiatric and Mental Health Disorders
+38704793,"[""prostate cancer""]","[""ultrasound""]",['prostate cancer'],Cancer and Oncology
+38706783,"[""venous thromboembolism""]","[""Clinical data""]",['venous thromboembolism'],Respiratory and Lung Conditions
+38772191,"[""interstitial lung disease""]","[""computed tomography"",""CT""]",['interstitial lung disease'],Respiratory and Lung Conditions
+38807510,"[""chronic kidney disease""]","[""Clinical data"",""Laboratory data""]",['chronic kidney disease'],Kidney and Renal Diseases
+38902526,"[""Prostate Cancer"", ""Clinically Significant Prostate Cancer (csPCa)""]","[""Blood-based Biomarkers"", ""Clinical Biomarker Data""]","['Prostate Cancer', 'Clinically Significant Prostate Cancer (csPCa)']",Cancer and Oncology
+38906883,"[""major depressive disorder""]","[""clinical data"", ""sociodemographic data"", ""Treatment response data""]",['major depressive disorder'],Psychiatric and Mental Health Disorders
+38951965,"[""femoral neck fractures""]","[""Clinical data"",""Laboratory data""]",['femoral neck fractures'],Musculoskeletal and Rheumatic Disorders

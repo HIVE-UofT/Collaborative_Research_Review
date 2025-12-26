@@ -1,0 +1,1431 @@
+PMID,PLD,Modality
+37310046,FALSE,
+38019000,FALSE,
+38190258,FALSE,
+38326673,TRUE,"""Clinical"", ""Sensor"", ""Behavioral"", ""Demographic"""
+38357879,TRUE,Clinical + Sensorimotor (wearable exoskeleton)
+38383805,TRUE,"""Imaging"", ""Clinical"""
+38405768,TRUE,"""Genomic"", ""Clinical (Phenotype)"""
+38409223,FALSE,
+38512435,TRUE,"""Clinical"", ""Pet"""
+38520646,FALSE,
+38575195,FALSE,
+38590142,FALSE,
+38627132,TRUE,"""Imaging"", ""Clinical"", ""Demographic"", CT images"
+38647191,TRUE,"""Clinical"", ""Sensor"", ""Demographic"", ""Cognitive Assessment"", ""Imaging"", MR image"
+38696699,FALSE,Other (GPT-4 dermatology diagnostic performance commentary)
+38717330,FALSE,
+38789645,TRUE,"""Imaging (Histopathology Whole-Slide Images)"", ""Clinical"", ""Genomic"", ""Demographic"""
+38808752,FALSE,
+38842169,FALSE,
+38857570,FALSE,
+38858261,FALSE,Other (whitepaper on anatomy ontologies for medical imaging interoperability)
+38871841,FALSE,Other (evaluation of ChatGPT for patient education on BPE symptoms)
+38873702,TRUE,"""Clinical"", ""Sensor"", ""Demographic"""
+38878395,FALSE,
+38880121,FALSE,
+38881045,FALSE,"Clinical/EHR (demographics, vitals, labs, ICD codes, imaging)"
+38901097,FALSE,Other (tree-structured geometrical data)
+38905892,TRUE,Imaging (knee MRI segmentation)
+38908306,FALSE,
+38922721,FALSE,
+38924864,FALSE,
+38936223,FALSE,
+38946041,TRUE,"	Imaging (spinal motion), clinical follow-up data"
+38951248,TRUE,"Clinical (treatment demand, demographics, outcomes)"
+38954941,FALSE,
+38972258,FALSE,
+38980942,FALSE,
+38981593,TRUE,Imaging (MRI + CT for GAN-based CT synthesis)
+38997146,FALSE,
+38997881,TRUE,Imaging (CXR for AI detection of no-actionable disease)
+39008794,TRUE,Imaging (3D carotid ultrasound segmentation)
+39009211,FALSE,
+39011113,FALSE,Other (Mendelian randomization proteogenomics for cerebral small vessel disease)
+39019077,FALSE,Other (physics-based effective charge data)
+39019443,TRUE,Clinical/time-series (wellness + running performance metrics)
+39022175,FALSE,
+39022298,FALSE,
+39023863,FALSE,
+39024011,FALSE,
+39024163,FALSE,
+39025402,FALSE,
+39026579,FALSE,
+39026819,FALSE,
+39028670,FALSE,
+39029490,TRUE,Sensor/neural (LFP + spike timing data)
+39030342,FALSE,
+39030380,TRUE,Imaging (histopathology slides)
+39030752,FALSE,
+39031079,FALSE,Other (in vitro assay + chemical mixtures)
+39031310,FALSE,
+39032237,FALSE,
+39033326,FALSE,
+39034758,TRUE,"Imaging (CCTA scans, CAD detection/classification)"
+39034988,FALSE,Imaging
+39035052,TRUE,"Imaging (hyperpolarized gas MRI) + Clinical (spirometry, demographics)"
+39036965,FALSE,
+39037754,TRUE,Clinical/Text (NLP analysis of chat transcripts)
+39037850,FALSE,Other (pediatric AI commentary)
+39037945,FALSE,
+39037993,FALSE,Other (study protocol for TBI equity synthesis)
+39038911,TRUE,"Clinical (demographics, labs, biochemistry, hematology)"
+39038983,TRUE,Clinical/text (EHR-derived insights on social determinants)
+39039296,FALSE,
+39039720,TRUE,Clinical Decision Support via ChatGPT (dentistry)
+39040123,FALSE,Other (ML commentary on imbalanced datasets)
+39040582,TRUE,"Imaging + clinical (qCT features, ECG, radiomics)"
+39043087,FALSE,
+39043685,FALSE,
+39044037,TRUE,Imaging/biomechanical (3D spine ML predictions)
+39044633,FALSE,
+39045485,FALSE,
+39047027,FALSE,
+39047165,FALSE,
+39047974,FALSE,
+39048682,FALSE,
+39049273,TRUE,"	Clinical (nursing assessments, EHR data)"
+39049277,FALSE,
+39049285,TRUE,Clinical (structured community nursing EHR data)
+39049411,TRUE,Usability study (mobile app for person-centred care)
+39051104,TRUE,"Clinical (exercise surveys, arrhythmia tracking)"
+39051648,TRUE,Imaging (stool photos) + clinical (endoscopy labels)
+39052236,FALSE,
+39052314,TRUE,Clinical + possibly Imaging/Textual
+39052548,TRUE,Genomic (microbiome) + clinical (cytokines)
+39052668,TRUE,"Clinical (demographics, labs)"
+39053116,FALSE,
+39053196,FALSE,Imaging (medical) + Transformer (UDTransNet)
+39053540,FALSE,–
+39054361,TRUE,Imaging (MRI metabolic)
+39054582,TRUE,Imaging (FLAIR MRI texture biomarkers) 
+39055787,FALSE,
+39055931,TRUE,Imaging (fundus fluorescein angiography) + VQA
+39056109,TRUE,Clinical/EHR (cancer screening data integration)
+39059710,FALSE,Other (math modeling for infectious disease)
+39060178,FALSE,
+39060305,FALSE,Other (chemical + computational)
+39060307,FALSE,
+39061178,TRUE,Imaging (PET/CT radiomic features for survival analysis)
+39066103,TRUE,"Sensor + Imaging (UWB, IMU movement data)"
+39066637,FALSE,
+39067309,FALSE,Other (multidisciplinary AI implementation)
+39068830,FALSE,
+39069027,FALSE,
+39069148,TRUE,Clinical (anatomical/occlusion outcome data)
+39070129,TRUE,Clinical + biomarker assay
+39072028,FALSE,
+39075055,FALSE,Other (reporting quality of AI trials)
+39075133,TRUE,Imaging (video frames) + positional labels in clinical context
+39076208,FALSE,Other (preclinical tissue engineering study)
+39077854,TRUE,"Clinical / EHR (ventilation parameters, ICU data)"
+39078813,FALSE,
+39078880,FALSE,
+39079170,FALSE,
+39079541,TRUE,Sensor
+39080159,FALSE,
+39080333,FALSE,
+39081605,FALSE,
+39082215,FALSE,Other (mass spectrometry data)
+39083062,TRUE,Imaging (MRI radiomic features; machine learning)
+39083136,FALSE,
+39083765,FALSE,
+39084408,TRUE,"Clinical / EHR (vascular procedure data, demographics, risk factors)"
+39085375,FALSE,Imaging + Other (vision; robotics)
+39085477,FALSE,
+39087585,TRUE,Clinical (ICD/ATC-coded EHR data for mortality prediction)
+39088324,FALSE,
+39088821,TRUE,"Clinical / GIS / App data (patient transfer, stroke timelines)"
+39090192,TRUE,"Genomic / transcriptomic (gene expression profiling, AML outcome modeling)"
+39090573,FALSE,
+39092239,FALSE,
+39092497,FALSE,
+39092553,FALSE,
+39094095,FALSE,
+39094840,TRUE,Clinical ML (EHR data for 30‑day readmission prediction)
+39095707,FALSE,
+39095975,FALSE,
+39096240,FALSE,
+39097076,TRUE,Clinical/imaging (motor outcome prediction; likely imaging + clinical metrics)
+39097289,FALSE,
+39097471,FALSE,Other (letter/correspondence)
+39097589,FALSE,
+39097627,FALSE,
+39098369,FALSE,
+39098450,TRUE,"Clinical + perioperative variables, ML modeling"
+39100452,FALSE,
+39101315,FALSE,
+39101625,TRUE,Imaging (CCTA plaque quantification)
+39103509,TRUE,"Neuroimaging + Multimodal (fMRI, DTI, PET, morphometry)"
+39103539,TRUE,Sensor (EEG)
+39103943,FALSE,
+39104258,TRUE,"""Sensor (IMU)"", ""Clinical (activity labels)"
+39104404,FALSE,"""Genomic (microbiome sequencing)"""
+39104689,FALSE,
+39107243,FALSE,
+39111265,FALSE,
+39111636,FALSE,
+39111972,TRUE,"""Imaging (CMR)"", ""Clinical (outcomes)"""
+39112632,TRUE,"Clinical (EHR, lab data)"
+39113629,TRUE,"""Clinical (donor history)"", ""Other (operational records)"""
+39113766,FALSE,"""Imaging (videolaryngoscopy images)"""
+39114779,FALSE,
+39115157,FALSE,
+39116018,TRUE,Imaging analysis ML (videolaryngoscopy)
+39116147,TRUE,Imaging (fMRI)
+39116183,FALSE,
+39116707,TRUE,Imaging (multi-modality MRI sequences)
+39118320,FALSE,
+39118548,FALSE,
+39118805,TRUE,Imaging (tongue photos)
+39120145,FALSE,
+39121777,FALSE,
+39121797,TRUE,"Imaging (navigation + imaging), Clinical procedure data"
+39122153,FALSE,
+39122422,TRUE,Textual (interviews) + Clinical (primary care clinicians)
+39122730,FALSE,
+39123282,FALSE,
+39123865,FALSE,
+39124000,TRUE,	Sensor (smartphone inertial)
+39125691,FALSE,
+39126604,TRUE,"Imaging (echo video), Clinical measurements"
+39126706,FALSE,
+39126971,TRUE,Clinical (ECG + angiography + demographics)
+39127521,TRUE,Imaging (ultrasound)
+39129081,FALSE,
+39131274,FALSE,
+39131324,FALSE,
+39132480,TRUE,Imaging (CT scans)
+39133267,FALSE,
+39133721,FALSE,
+39134582,FALSE,
+39134725,FALSE,
+39135903,FALSE,
+39136393,FALSE,
+39136673,TRUE,Clinical (intake variables)
+39137884,FALSE,
+39137885,FALSE,
+39139542,TRUE,Imaging (OCT) + Textual
+39140200,FALSE,
+39141002,TRUE,Sensor (EEG)
+39143109,TRUE,Sensor (IMU gait data)
+39143616,TRUE,Biomechanical + Sensorimotor (wearable exoskeleton during TKAs)
+39146234,FALSE,Other (Molecular simulation)
+39146280,FALSE,
+39147042,FALSE,
+39147133,FALSE,
+39147830,TRUE,"Imaging (MRI), Clinical metadata"
+39148259,FALSE,
+39148930,FALSE,
+39148932,TRUE,Imaging (T1‑weighted MRI)
+39149460,FALSE,
+39149493,FALSE,
+39150782,FALSE,
+39151148,FALSE,
+39151376,FALSE,
+39151887,FALSE,"Public Health (epidemiology of metabolic diseases, DALYs/deaths analysis)"
+39151894,FALSE,
+39152127,FALSE,
+39152359,FALSE,
+39152475,FALSE,
+39153834,TRUE,Clinical (plasma proteomics)
+39153961,FALSE,
+39154039,TRUE,"Imaging (T2-FLAIR MRI, radiomics + CNN classification for pLGG genetics)"
+39154338,FALSE,
+39154905,FALSE,
+39155417,FALSE,
+39155454,FALSE,
+39155716,FALSE,
+39155720,FALSE,
+39155722,FALSE,
+39156648,FALSE,
+39158113,FALSE,
+39158427,FALSE,Ethics Commentary (anorexia decision capacity; bioethics discussion)
+39159140,FALSE,
+39159446,FALSE,
+39159584,FALSE,
+39160016,TRUE,Imaging
+39160211,FALSE,
+39160586,FALSE,
+39160644,TRUE,Clinical
+39162740,FALSE,Professional Education (AI competence for healthcare providers)
+39164888,TRUE,Clinical
+39165097,FALSE,
+39165145,TRUE,Imaging; Clinical
+39165270,TRUE,Imaging
+39165387,TRUE,Clinical; Sensor
+39165503,FALSE,Clinical; Textual
+39167442,TRUE,Clinical (EHR)
+39167569,FALSE,
+39168075,FALSE,
+39168568,TRUE,Sensor; Clinical
+39169095,FALSE,
+39169245,FALSE,
+39169408,TRUE,Sensor
+39169480,FALSE,
+39171102,TRUE,Clinical
+39171205,TRUE,Imaging; Clinical
+39171984,FALSE,
+39172742,TRUE,Clinical
+39172830,FALSE,
+39173488,FALSE,
+39173694,FALSE,
+39175366,TRUE,Sensor
+39175386,FALSE,
+39176885,FALSE,
+39176892,TRUE,Clinical (Service Util.)
+39176900,TRUE,Clinical (EMR)
+39176903,FALSE,
+39176959,FALSE,
+39177093,FALSE,
+39178224,FALSE,
+39178369,TRUE,Genomic (RNA‑seq); Clinical (ctDNA)
+39178886,FALSE,
+39178943,FALSE,Other (Proteomics)
+39179588,FALSE,
+39180117,FALSE,
+39180304,FALSE,Other (Qualitative/Textual)
+39180407,TRUE,Sensor (SEEG); Clinical
+39180855,FALSE,Clinical (Control System)
+39181958,FALSE,
+39182418,TRUE,Imaging (fMRI)
+39182775,FALSE,
+39184692,FALSE,
+39186764,TRUE,Clinical; Textual (EHR notes)
+39186794,FALSE,Other (Cell morphology)
+39187013,FALSE,
+39187703,TRUE,Imaging (CT); Clinical
+39189482,TRUE,Clinical (EHR structured data)
+39189786,FALSE,
+39191563,TRUE,Imaging (CT radiomic features)
+39191756,FALSE,
+39191772,TRUE,Genomic (cfDNA/ctDNA)
+39194260,TRUE,Clinical; Pharmacokinetic (simulated)
+39194400,TRUE,Imaging (CT scans)
+39194990,FALSE,
+39196703,FALSE,
+39196891,FALSE,Other (Process-mining logs)
+39196959,FALSE,
+39197678,TRUE,Clinical; Imaging (clinicopathology)
+39197681,FALSE,
+39197760,FALSE,
+39197980,FALSE,
+39198137,TRUE,Imaging (MRI)
+39198623,TRUE,Imaging + Clinical/Other (HIFU planning)
+39198655,FALSE,
+39199718,FALSE,
+39201222,FALSE,
+39202209,TRUE,Imaging (echocardiograms)
+39203524,FALSE,
+39204791,TRUE,Sensor; Imaging/Clinical (camera and sensor)
+39205081,FALSE,
+39207351,FALSE,Other (Wearables/apps commentary)
+39208523,FALSE,
+39209988,TRUE,"Imaging (MRI, multiple contrasts)"
+39211048,FALSE,Clinical/Immunological (CD27 pathway)
+39211428,FALSE,
+39212671,TRUE,Imaging (cerebral ultrasound)
+39212991,TRUE,Imaging (CT scans)
+39213905,FALSE,
+39214119,FALSE,
+39214777,FALSE,Other (White paper/Review)
+39216870,FALSE,
+39217446,TRUE,Clinical; Sensor data (ECG‑AI)
+39217803,FALSE,
+39218845,FALSE,
+39219096,TRUE,Imaging (camera selfies); Clinical
+39219556,FALSE,
+39220345,FALSE,Other (Textual/Ethnography)
+39220549,FALSE,
+39222561,FALSE,
+39222663,TRUE,Imaging (fluorescein angiography)
+39222907,FALSE,
+39223133,FALSE,
+39223171,FALSE,
+39225775,TRUE,Imaging (PET radiomics)
+39225790,TRUE,Imaging (fundus); Clinical
+39226095,TRUE,Imaging (fundus)
+39227061,FALSE,
+39227660,FALSE,
+39228010,FALSE,
+39228995,FALSE,
+39230789,FALSE,
+39231549,TRUE,Clinical; Textual (genetic counselling RCT)
+39232128,FALSE,
+39232270,TRUE,Imaging; Genomic (histopathology + genomic)
+39232812,FALSE,
+39233007,FALSE,Other (Practice guidelines)
+39234216,FALSE,
+39236407,FALSE,
+39236810,TRUE,Clinical; Sensor/Behavioral
+39238140,TRUE,Clinical (Survey/Textual)
+39239995,FALSE,Other (Materials science overview)
+39240129,TRUE,Clinical (EHR); Imaging (Echo)
+39240565,FALSE,
+39242604,FALSE,
+39244483,FALSE,
+39245713,FALSE,
+39246139,FALSE,Other (Position paper)
+39247292,FALSE,
+39247846,FALSE,
+39248125,FALSE,
+39249618,FALSE,
+39250328,FALSE,Other (Clinical intervention)
+39251880,FALSE,Commentary (Sensor/Behavioral)
+39252427,FALSE,Other (Review/Editorial)
+39252679,FALSE,
+39252695,TRUE,Imaging (MRI)
+39254193,FALSE,
+39254470,FALSE,
+39255470,FALSE,
+39256075,FALSE,
+39257289,TRUE,Clinical (Trial data)
+39260829,FALSE,Other (Review/Commentary)
+39261226,TRUE,Clinical (EHR)
+39261642,FALSE,Other (Ethics Commentary)
+39261740,FALSE,
+39261837,FALSE,
+39264706,FALSE,
+39264972,TRUE,Imaging (DTI/fMRI white-matter connectivity)
+39265163,FALSE,
+39265481,FALSE,
+39270714,TRUE,Sensor/Behavioral (accelerometer data)
+39272633,TRUE,Clinical; Biomarker (Inflammatory protein panel)
+39272680,FALSE,
+39274208,TRUE,Textual (speech recordings)
+39275505,FALSE,
+39277668,FALSE,
+39278469,TRUE,"Imaging (multimodal brain MRI: structural, functional, diffusion)"
+39279844,FALSE,
+39280352,FALSE,
+39281042,TRUE,Sensor (mobile/Apple Health); Clinical (stress ratings)
+39282630,FALSE,
+39282795,FALSE,
+39283190,TRUE,Clinical (ICU EHR)
+39283589,FALSE,
+39283667,TRUE,"Clinical (trial data: e‑cigarettes, weight)"
+39284485,FALSE,
+39284602,TRUE,Clinical (EHR-based ML warning)
+39285176,FALSE,
+39285345,TRUE,Clinical (biomarkers)
+39285373,TRUE,Clinical; Genomic (pediatric ALL)
+39286491,FALSE,
+39287522,TRUE,Imaging (chest CT); Clinical
+39287776,FALSE,
+39290307,TRUE,Clinical (EHR/psychiatric)
+39290362,TRUE,Clinical (transplant data)
+39290876,FALSE,
+39291994,FALSE,
+39293215,FALSE,
+39294334,FALSE,
+39295471,TRUE,Sensor/Behavioral (mobile app depression)
+39295734,FALSE,Other (in silico + phantom imaging data)
+39297189,FALSE,
+39297852,TRUE,Imaging (echo); Clinical (cohort outcomes)
+39300081,FALSE,
+39302455,FALSE,
+39302479,FALSE,
+39302582,FALSE,
+39303472,FALSE,
+39303691,FALSE,
+39304601,FALSE,
+39304672,TRUE,Clinical (EHR cohort)
+39306801,TRUE,Clinical (survey + lesion features)
+39306906,TRUE,Clinical; Genomic; Textual (recommender)
+39307095,FALSE,"Other (metabolomics, clustering)"
+39308760,FALSE,Other (imaging harmonization method)
+39309658,FALSE,
+39309663,TRUE,Clinical; Imaging (multimodal data)
+39311140,FALSE,
+39311919,TRUE,Clinical; Metabolomic
+39312142,FALSE,
+39312296,TRUE,Clinical/Other (AI–trial metadata)
+39312500,FALSE,
+39312778,FALSE,Other (LLM in guideline creation)
+39313595,FALSE,
+39314688,FALSE,Other (EEG processing guidelines)
+39315514,FALSE,
+39316160,TRUE,Clinical; Imaging (ICH prognostic ML)
+39317757,FALSE,Other (AI policy commentary)
+39317911,FALSE,
+39318702,TRUE,Imaging (RSFC fMRI); Clinical (psychometric)
+39319317,FALSE,
+39319335,FALSE,
+39319516,FALSE,
+39321336,FALSE,
+39321537,FALSE,
+39322490,FALSE,
+39323812,FALSE,
+39324295,FALSE,
+39324357,TRUE,Clinical; Multi-study surgical ML
+39325010,TRUE,Clinical; Transcriptomic (TME score)
+39325425,FALSE,
+39325508,FALSE,Other (Guideline consensus)
+39325686,FALSE,
+39325691,FALSE,Other (Protein–metabolite ML)
+39325959,FALSE,
+39326263,FALSE,
+39326743,FALSE,
+39328929,TRUE,Clinical; Imaging (MR-guided RT plans)
+39329626,FALSE,
+39330030,TRUE,Clinical (EHR/lab values)
+39330487,TRUE,Genomic; Metabolomic; Transcriptomic
+39330540,FALSE,
+39330905,FALSE,
+39331565,FALSE,
+39332081,TRUE,Sensor (EEG)
+39333580,FALSE,
+39334143,FALSE,Other (Plant tissue culture ML)
+39335379,FALSE,
+39335390,FALSE,
+39337060,TRUE,Sensor/Behavioral; Textual (VR speech)
+39337104,FALSE,
+39338033,FALSE,
+39338662,FALSE,
+39338830,FALSE,
+39338848,TRUE,Sensor (EEG)
+39342676,FALSE,Other (Simulation; ECG methodology)
+39344066,FALSE,
+39344772,TRUE,Sensor/Behavioral (knee biomechanics)
+39347450,FALSE,
+39348189,FALSE,Other (simulated vignettes)
+39349065,TRUE,Clinical; Textual; Labs; Vitals
+39349642,FALSE,
+39349818,FALSE,
+39349864,FALSE,
+39353189,FALSE,
+39353303,FALSE,
+39353461,TRUE,Imaging (MRI); Clinical data
+39354219,FALSE,Other (Letter/commentary)
+39354632,FALSE,
+39357799,FALSE,
+39358379,FALSE,Other (Planetary modeling)
+39360189,FALSE,Textual/Phenology (Plant science)
+39360579,FALSE,
+39360851,FALSE,Other (Neuropathology review)
+39361051,FALSE,
+39361325,FALSE,
+39362762,TRUE,"Imaging (SPECT, CT); Clinical"
+39362974,FALSE,
+39363013,FALSE,
+39363322,FALSE,
+39365655,FALSE,Other (LLM/Textual commentary)
+39368996,TRUE,Imaging (MRI); Clinical (Genetic correlation)
+39369015,FALSE,
+39369312,FALSE,Other (Methodology/Measurement accuracy)
+39370551,FALSE,
+39371527,FALSE,Other (Policy/Ethics commentary)
+39372456,TRUE,Imaging (CCTA)
+39372459,TRUE,Imaging (echocardiogram video) + Clinical
+39373438,FALSE,Other (Quantum simulation ML)
+39373492,FALSE,
+39374375,FALSE,
+39374978,TRUE,Textual/Clinical (survey dataset)
+39375316,FALSE,
+39377792,TRUE,Clinical; Behavioral (criminal offense predictors)
+39377901,TRUE,Clinical; Surgical outcomes
+39378622,FALSE,Proteomic/Chromatography
+39378691,FALSE,
+39378772,FALSE,
+39380092,FALSE,Other (metabolomics in mice)
+39380895,FALSE,
+39381140,FALSE,
+39383676,FALSE,
+39385257,TRUE,Imaging (echocardiogram) + Clinical
+39385801,TRUE,Clinical (EHR/lab data)
+39385845,TRUE,Imaging (CMR scans)
+39388213,FALSE,
+39390632,FALSE,
+39392111,FALSE,
+39393085,FALSE,Physical Chemistry/Computational
+39394122,FALSE,
+39394211,FALSE,
+39394473,FALSE,Other (environmental ML methods)
+39395154,TRUE,Clinical (assessment scores)
+39395202,FALSE,
+39395210,FALSE,Imaging (retinal fundus); Method challenge dataset
+39395724,FALSE,Other (computational model/image fusion)
+39396189,FALSE,
+39397017,FALSE,
+39397290,TRUE,Textual (education/nursing assignments)
+39397816,FALSE,Textual + Image (multimodal chemical mining)
+39398421,FALSE,
+39399054,TRUE,Sensor (EEG); Clinical (pain sensitivity biomarker)
+39400305,FALSE,
+39400567,TRUE,Imaging (cardiac MRI/CMR belt sports athletes)
+39401600,FALSE,
+39402535,FALSE,
+39402625,FALSE,Genomic (in silico/RNA‑seq pipeline)
+39404416,FALSE,
+39405314,FALSE,
+39405390,TRUE,"Imaging (CCTA plaque quantification, deep learning)"
+39409286,FALSE,
+39409347,TRUE,Sensor (inertial IMU); Clinical (manual wheelchair propulsion)
+39409353,FALSE,Sensor (IoT localization via DNN)
+39409425,FALSE,
+39409470,FALSE,
+39409480,FALSE,
+39409523,TRUE,Sensor (bed-load cells)
+39409899,FALSE,
+39410555,TRUE,Clinical (EHR); Textual (NLP named entity recognition)
+39412991,FALSE,
+39413784,FALSE,
+39413795,FALSE,Other (peptidomics workflow; proteomics + transcriptomic + clinical)
+39415214,FALSE,
+39415942,FALSE,
+39417143,TRUE,Imaging (volumetric MRI); Clinical (gait/neuropsych)
+39417677,FALSE,
+39418366,FALSE,
+39419847,FALSE,
+39420135,FALSE,Other (single-cell network inference)
+39421012,FALSE,
+39422586,FALSE,
+39423564,TRUE,Imaging (histopathology slides); Clinical
+39424073,TRUE,Clinical (registry); Outcomes
+39424499,FALSE,Other (protocol/scoping review)
+39424635,TRUE,Sensor (audio cough sounds); Clinical metadata
+39424855,FALSE,
+39424948,FALSE,Other (ethics assessment tool description)
+39425951,FALSE,Other (Research ethics viewpoint)
+39426036,FALSE,❓Unknown
+39427574,FALSE,
+39427991,FALSE,
+39428880,TRUE,Imaging (fMRI neurofeedback)
+39429874,FALSE,Other (bulk/single-cell microbiome review)
+39430511,FALSE,
+39431809,TRUE,Clinical + Surgical (OR complexity)
+39432516,FALSE,
+39433733,FALSE,Other (photonic tensor core hardware study)
+39435397,TRUE,Clinical (EHR/administrative health data)
+39435450,FALSE,Other (ML models for peptide bioactivity)
+39435472,TRUE,Sensor (saliva Raman) + Clinical (COVID status)
+39437603,FALSE,
+39438527,FALSE,Other (integrated mobile clinics commentary)
+39438551,TRUE,Clinical; Lifestyle questionnaire
+39439213,TRUE,Imaging (histopath slide review)
+39439627,TRUE,Clinical; Imaging (CBCT-guided SABR)
+39441075,FALSE,Other (Plant omics resource description)
+39441598,FALSE,Clinical + Imaging (AI chatbot benchmarking)
+39441796,FALSE,Structural (protein–protein interactions)
+39441897,FALSE,Other (robotic cell manipulation)
+39442384,TRUE,Imaging (CT body composition)
+39442454,FALSE,
+39443525,FALSE,
+39443629,TRUE,Imaging (MRI radiomics); Clinical
+39444331,TRUE,Clinical; Sensor/Ventilator waveform analysis
+39445836,FALSE,
+39446304,TRUE,Imaging (4D respiratory CBCT)
+39446657,FALSE,Other (anesthesia research vision statement)
+39447096,TRUE,Imaging (histopathology) + Clinical
+39447688,TRUE,Imaging (fMRI connectivity) + Clinical
+39447842,FALSE,
+39448369,FALSE,Other (infection surveillance commentary)
+39450049,TRUE,Imaging (3D T1‑weighted MRI); Clinical (MS demographics)
+39450736,FALSE,
+39451503,TRUE,Clinical; Textual; Questionnaires (MSES & RNLI)
+39452006,TRUE,Imaging (DTI FA values); Clinical (TLE demographics)
+39453102,FALSE,
+39453409,FALSE,
+39453412,FALSE,Other (AAPM QA guidelines on robotic radiosurgery)
+39453878,TRUE,Clinical (EHR/administrative); Sensor features via deep feature synthesis
+39454372,FALSE,
+39455713,FALSE,
+39459832,FALSE,
+39460159,FALSE,
+39460487,FALSE,
+39460933,FALSE,
+39461956,FALSE,Other (Silicon photonic security/PUF)
+9463128,TRUE,Imaging (CT radiomics)
+39464130,FALSE,Other (preclinical computational)
+39465261,FALSE,
+39466099,FALSE,Other (platform description)
+39466358,FALSE,
+39466423,FALSE,
+39468586,FALSE,Other (Embryo morphology imaging)
+39468626,FALSE,
+39470044,FALSE,Other (Policy review – AI governance)
+39470297,TRUE,"Clinical (Demographics, HAM-D scores, Genetics)"
+39470422,TRUE,Imaging (mpMRI segmentation) + Clinical
+39470660,TRUE,Sensor (uroflowmetry via sound)
+39470681,FALSE,Other (AI chatbot evaluation)
+39470955,FALSE,
+39471234,TRUE,Clinical; Socioeconomic predictors (EHR)
+39472236,FALSE,
+39472484,FALSE,Sensor + Mechanical (Fluid dynamics)
+39473368,FALSE,
+39475656,TRUE,Clinical; EHR/ED visit predictors (oncology)
+39475693,FALSE,
+39477930,FALSE,Other (Microbial structural biology)
+39478004,TRUE,Imaging (ROP fundus photos)
+39478913,FALSE,
+39479356,FALSE,
+39481033,FALSE,
+39483192,FALSE,Other (conference ethics summary)
+39484089,TRUE,Clinical (EHR/surg data) + Imaging (post-op outcomes)
+39484366,FALSE,
+39486343,FALSE,
+39486813,FALSE,
+39487434,TRUE,Clinical (cohort data) + Genomic/symptom predictors
+39488053,FALSE,Other (genomic variant database entry)
+39490015,FALSE,
+39490695,FALSE,
+39495097,FALSE,
+39495449,FALSE,
+39496168,FALSE,
+39498698,FALSE,
+39498885,FALSE,
+39499532,FALSE,Other (computational compound screening)
+39500028,TRUE,Imaging (4D CTP) + Clinical (metadata)
+39501360,FALSE,Other (simulation/computation in method comparison)
+39502287,FALSE,
+39502452,TRUE,Imaging (MRI FLAIR)
+39503604,TRUE,Imaging (abdominal CT)
+39508981,FALSE,
+39509384,FALSE,
+39509543,FALSE,
+39509585,FALSE,
+39509811,FALSE,
+39510141,TRUE,Imaging (PSMA PET/multiparametric MRI) + Clinical
+39511103,TRUE,Imaging (structural & functional connectomes via MRI/DTI) + Clinical
+39511143,TRUE,Imaging (breast MRI) + Clinical (neoadjuvant therapy response)
+39511301,TRUE,Imaging (H&E histopathology) + Genomic (RNA-seq cell quant)
+39511921,FALSE,Other (Program descriptive—for Africa‑FINGERS dementia prevention)
+39513447,FALSE,
+39513706,FALSE,
+39513745,TRUE,Clinical; Viral load dynamics
+39513940,TRUE,Genomic (multi‑region sequencing)
+39515502,TRUE,Clinical; Sensor/ECG
+39515818,TRUE,Clinical; Survey/Textual (ED virtual triage)
+39516139,FALSE,Other (Clinical practice recommendations – pain)
+39516141,FALSE,Other (Pain-assessment clinical position statement)
+39516292,FALSE,
+39517699,TRUE,Sensor (bed sensors); Clinical (staff focus groups)
+39517707,FALSE,
+39517834,TRUE,Sensor (vaginal dynamometry); Clinical (muscle contraction)
+39519384,TRUE,Clinical; Metabolomic (plasma biomarkers for breast cancer)
+39522157,FALSE,
+39522429,FALSE,❓Unknown (likely genomic variant data)
+39522892,TRUE,Imaging (MRI/fMRI); Clinical (fibromyalgia severity correlations)
+39523365,FALSE,Other (Developmental psychology)
+39523535,TRUE,"Clinical (PHQ‑9, GAD‑7 scores from EHR)"
+39523740,FALSE,
+39526423,FALSE,
+39526523,FALSE,
+39526583,FALSE,
+39526672,FALSE,
+39529702,TRUE,Imaging (CT-based simulation) + Case report
+39532560,FALSE,
+39532933,TRUE,"Clinical (demographics, disease features)"
+39535777,FALSE,
+39538148,TRUE,Clinical (COVID-19 comorbidities)
+39538197,TRUE,Clinical (EHR/admin codes) + Longitudinal data
+39539499,FALSE,Other (computational neuroscience)
+39540986,FALSE,Other (Reinforcement learning for home care scheduling)
+39541188,FALSE,
+39543155,TRUE,Imaging (MRI features + clinical RT phenotypes)
+39543390,FALSE,
+39543820,TRUE,Sensor (EEG monitoring in neonates) + Clinical outcomes
+39544176,TRUE,Imaging (MRI-based tumor location distributions)
+39545207,FALSE,Textual (AI-generated residency statements)
+39546235,FALSE,
+39546793,FALSE,
+39546876,FALSE,
+39546940,TRUE,Clinical; Textual (EHR SDOH extraction)
+39547458,FALSE,
+39553535,FALSE,
+39553826,FALSE,
+39554598,FALSE,
+39554880,FALSE,
+39555243,FALSE,
+39555321,TRUE,Clinical; Imaging & Surgical
+39556102,FALSE,
+39557736,FALSE,Other (tool/checklist validation: RIDGE for DL segmentation)
+39557985,FALSE,
+39558756,FALSE,
+39560185,TRUE,"Imaging (lesion volume, fMRI, ALFF)"
+39560355,FALSE,
+39560909,TRUE,Clinical (ED triage via EHR)
+39561305,FALSE,
+39561445,FALSE,
+39562606,TRUE,Clinical (routine labs); Genomic labels for CA
+39565826,FALSE,
+39565918,FALSE,
+39567590,FALSE,Sensor/Simulation (geophysics + ML)
+39569353,FALSE,Other (deep reinforcement learning sim)
+39569866,TRUE,Sensor (neuroprosthesis calibration data)
+39570833,FALSE,
+39571686,FALSE,
+39573886,FALSE,
+39574505,TRUE,Imaging (pCASL & structural MRI) + Clinical (PTSD/Healthy controls)
+39574865,TRUE,Imaging (structural MRI; brain age models) + Clinical (stroke)
+39575878,FALSE,
+39577351,TRUE,Sensor (aortic pressure waveform) + Clinical (STEMI outcomes)
+39578510,FALSE,
+39579746,TRUE,Clinical; Textual (self-reported mood/anxiety via PD‑PROP)
+39580084,FALSE,
+39580772,FALSE,Other (computational drug design)
+39581301,TRUE,"Clinical; Tabular (lab data, genomic labels)"
+39581785,TRUE,Imaging (Hyperpolarized ¹²⁹Xe & ¹H MRI) + Clinical
+39582547,FALSE,Other (AI ethics narrative review)
+39583805,FALSE,
+39585761,FALSE,Textual (cognitive model + psych data)
+39586755,FALSE,
+39587162,FALSE,
+39587223,FALSE,
+39587801,TRUE,Clinical Trial Metadata
+39588857,FALSE,
+39591782,FALSE,Other (Food chemistry + Sensor data)
+39592232,FALSE,
+39592459,FALSE,Other (Murine glioma + scRNA + ML)
+39593041,FALSE,
+39593108,FALSE,
+39593765,TRUE,Other (Audio-based cough detection CRNN)
+39594192,TRUE,Sensor/Imaging (Lung ultrasound AI)
+39595769,FALSE,
+39598005,TRUE,Clinical; Administrative database (NIS)
+39599008,FALSE,
+39601215,FALSE,
+39602132,FALSE,
+39602442,TRUE,Clinical (AI scribe evaluation)
+39602511,FALSE,
+39603967,TRUE,Imaging (facial photography; AI grading)
+39604572,FALSE,Other (LLM benchmark framework)
+39604928,TRUE,Clinical + Qualitative (ethics interviews & focus groups)
+39605005,TRUE,Clinical; EHR surveillance (primary care)
+39605202,FALSE,
+39605463,FALSE,
+39605959,TRUE,Clinical; Genomic (multi-gene panel)
+39606583,TRUE,Imaging (3D T1-weighted MRI) + Clinical
+39607066,TRUE,Clinical (BMI growth trajectories) + Educational outcomes
+39608298,FALSE,Other (framework metrics for ML in epilepsy)
+39608592,FALSE,Other (Delphi consensus for colonoscopy CADe evaluation)
+39608748,FALSE,
+39609353,FALSE,
+39609459,FALSE,Other (immunopeptidomics for vaccine design)
+39610054,FALSE,Textual (AI-generated medical advice evaluation)
+39610504,TRUE,"Clinical (T2DM; Vitals, Labs, Demographics)"
+39611080,FALSE,
+39611113,FALSE,
+39614484,FALSE,
+39615654,FALSE,
+39615789,TRUE,Imaging (Brain MRI & Brain-Age estimates)
+39616097,FALSE,
+39616218,FALSE,
+39616348,FALSE,
+39617127,FALSE,
+39617204,TRUE,Clinical; Genomic (miRNA biomarker profiling)
+39618232,FALSE,
+39620388,TRUE,Imaging (Prenatal US features); Clinical Outcome
+39621680,FALSE,
+39622441,FALSE,Clinical (AI scribe evaluation with clinician feedback)
+39622637,FALSE,Other (Single-cell transcriptomics + ML)
+39622907,FALSE,
+39623072,TRUE,Imaging (diffusion‑weighted MRI) + Clinical
+39623970,TRUE,Imaging (FDG‑PET; T1‑MRI; rs‑fMRI) + Clinical
+39625129,FALSE,
+39625749,FALSE,
+39628286,TRUE,Clinical (ACCORD‑BP trial) + Lab (HbA1c variability)
+39628576,FALSE,
+39633619,FALSE,
+39635814,TRUE,Sensor/Behavioral (spiral/line drawing) + Clinical
+39636175,FALSE,
+39636622,TRUE,"Imaging (3D T1, FLAIR MRI) + Clinical"
+39636692,FALSE,
+39637380,TRUE,Clinical + Textual (social media posts for suicide risk)
+39637459,FALSE,
+39637460,FALSE,
+39637836,FALSE,
+39638906,FALSE,Environmental + Sensor Data
+39640828,FALSE,
+39642394,TRUE,Imaging (CT) + Clinical (anatomic distances)
+39643006,TRUE,Clinical (vaccine response deep-learning)
+39643339,FALSE,
+39643751,TRUE,Clinical + Proteomic (plasma biomarkers)
+39644253,FALSE,
+39645171,FALSE,
+39647126,FALSE,
+39648215,TRUE,Sensor/Imaging (robotics+FES intervention)
+39650238,FALSE,
+39650505,FALSE,
+39652409,FALSE,Other (DEI roadmap via expert focus groups)
+39653020,FALSE,
+39653400,FALSE,
+39655476,TRUE,Imaging (neonatal MRI) + Clinical outcomes
+39656546,TRUE,Sensor (accelerometer) + Clinical (paediatric motor assessment)
+39656660,FALSE,
+39657020,TRUE,Clinical (psoriasis trial metadata)
+39657031,FALSE,Other (deep network for HDR brachytherapy plan selection)
+39657547,FALSE,
+39657609,FALSE,Other (Position statement: AID & physical activity)
+39657811,FALSE,
+39658630,FALSE,Other (Organoid modeling; PDAC phenotypic heterogeneity)
+39658658,TRUE,Clinical & Imaging (hydrocephalus ETV success)
+39659945,FALSE,Other (Optical computing data)
+39660731,FALSE,
+39662201,FALSE,
+39663371,FALSE,
+39663481,FALSE,
+39664064,FALSE,
+39664100,FALSE,
+39664810,FALSE,
+39665730,FALSE,
+39665759,FALSE,
+39667348,TRUE,Genomic (GWAS CNV & cognition)
+39667413,FALSE,
+39667899,TRUE,Imaging (diffusion MRI structural connectivity)
+39668102,TRUE,Imaging (2D TRUS dose prediction via U‑Net) + Clinical
+39669341,TRUE,Imaging (EBUS ultrasound frames) + Clinical
+39669520,FALSE,
+39670697,FALSE,
+39671421,FALSE,
+39671447,FALSE,
+39671751,FALSE,Imaging (medical)
+39672099,FALSE,
+39672397,FALSE,
+39672905,FALSE,Other (Patient/public participation study)
+39673022,FALSE,
+39673257,FALSE,
+39673635,FALSE,
+39673761,FALSE,Other (Causal inference method guide)
+39674082,FALSE,
+39674292,TRUE,Genomic + Clinical (ML for drug response)
+39674431,TRUE,Sensor; Clinical (smartphone pupillometry)
+39674512,FALSE,
+39674972,FALSE,Other (genetic case report/NDD)
+39674995,TRUE,Imaging (ultrasound) + Clinical (CP hip displacement)
+39675094,FALSE,Other (Simulation/ML)
+39675215,FALSE,
+39677374,FALSE,
+39678147,FALSE,
+39678445,FALSE,Other (Quantum dataset)
+39679176,TRUE,Imaging (MRI radiomics) + Clinical (brain mets invasion)
+39680491,FALSE,
+39680656,FALSE,❓Unknown
+39680927,FALSE,
+39681007,FALSE,Clinical Imaging + AI-enhanced CT
+39681666,TRUE,Clinical; Sensor (NICU physiological data)
+39681669,FALSE,Other (review: neonatal AI models)
+39682671,TRUE,Clinical; Sensor/EHR (MIMIC-III/IV physiological)
+39684694,FALSE,
+39684741,TRUE,Clinical; Metabolomic (plasma metabolites + demographics)
+39686010,FALSE,
+39686185,FALSE,Sensor/Network Performance Data
+39686715,FALSE,Experimental + Crystallographic + DFT
+39686993,TRUE,Imaging (MRI anatomical features)
+39687050,FALSE,
+39688491,FALSE,Other (Radiology LLM evaluation methodology)
+39689226,FALSE,
+39690863,FALSE,
+39691042,FALSE,Other (developmental neurobiology – spinal cord)
+39693330,FALSE,
+39693365,FALSE,
+39693600,TRUE,Imaging (retinal fundus) + Clinical (EHR survey)
+39693768,FALSE,Simulation (Raman ML for 2D materials)
+39694668,FALSE,
+39695438,FALSE,
+39695938,FALSE,
+39696368,TRUE,Clinical; Textual; Imaging (UK Biobank data)
+39696866,FALSE,
+39696897,FALSE,
+39697766,FALSE,
+39698476,TRUE,Sensor (auscultation signal) + Clinical
+39698820,FALSE,Other (national oral health research strategy)
+39699011,FALSE,
+39699588,FALSE,
+39700255,FALSE,
+39700855,FALSE,
+39700868,FALSE,
+39702564,FALSE,
+39703420,FALSE,Other (viral genome assembly pipeline)
+39703593,FALSE,
+39704505,TRUE,Imaging (4D-CT respiratory motion + radiomics)
+39705077,TRUE,Clinical; Textual (social media + pharmacovigilance)
+39705390,TRUE,Clinical Trial; Outcomes (dual antiplatelet)
+39705642,FALSE,
+39705822,FALSE,
+39705995,FALSE,
+39706536,FALSE,Other (Viewpoint/discussion on AI in writing)
+39707182,TRUE,Clinical; Metabolomic (plasma profiling)
+39707547,FALSE,Other (mouse EAE neurobiology + gait analysis)
+39707583,FALSE,
+39708349,FALSE,Other (Systematic review ML in dermatology)
+39708378,FALSE,
+39708495,FALSE,Other (physics-informed neural networks model)
+39708623,TRUE,Clinical; LLM diagnostic prompts + imaging
+39709028,TRUE,Clinical (VMAT planning eval across centres)
+39711253,FALSE,
+39712978,TRUE,Imaging (H&E tissue microarrays) + Clinical (biochemical recurrence)
+39714272,TRUE,Clinical; Speech (longitudinal audio)
+39715925,FALSE,Other (consortium paper/proteomic reference correction)
+39719299,TRUE,Imaging (pelvic radiographs) + Clinical progression prediction
+39719330,TRUE,Qualitative (Interviews/focus groups with older adults)
+39719598,FALSE,Genomic/Transcriptomic (Fungal gene expression)
+39719599,TRUE,Imaging (retinal microglia morphology) + Clinical (AD vs control)
+39720035,FALSE,
+39720055,FALSE,
+39721133,FALSE,
+39721995,FALSE,
+39723488,TRUE,Imaging (WMH MRI segmentation)
+39725502,FALSE,
+39725763,FALSE,
+39726894,FALSE,
+39727789,TRUE,Qualitative (French human-centered co-creation)
+39729343,FALSE,
+39729407,FALSE,Simulation + Sensor Data (EEG model simulations)
+39730835,FALSE,
+39732288,TRUE,Clinical (varicose vein treatment ML)
+39732570,TRUE,"Clinical (cardiac surgery, SIRS prediction)"
+39732618,FALSE,
+39732824,TRUE,"Sensor + Clinical (sleep biomarkers, neurodegeneration)"
+39733351,FALSE,Other (3D medical shape dataset)
+39733410,FALSE,
+39735354,FALSE,
+39735514,TRUE,Imaging & Clinical (functional/structural MRI gradients)
+39735827,FALSE,
+39736318,FALSE,
+39736714,TRUE,Clinical & Textual (survey + NLP topic modeling)
+39736875,FALSE,Other (microscopy imaging deep learning)
+39737572,FALSE,
+39737701,FALSE,
+39738228,FALSE,
+39739290,FALSE,
+39740646,TRUE,Clinical; LLM evaluation (radiology image Q&A)
+39742143,TRUE,Imaging (OCT fluid segmentation) + Clinical outcomes
+39742823,FALSE,
+39746249,FALSE,
+39747029,FALSE,
+39747232,FALSE,
+39747823,FALSE,
+39748023,FALSE,
+39748372,FALSE,
+39749902,FALSE,Other (Theoretical chemistry: energy predictions)
+39751971,TRUE,Clinical; Proteomic biomarkers for sepsis
+39752524,FALSE,
+39753139,TRUE,Genomic; Cancer molecular subtyping (TCGA)
+39753324,FALSE,Other; Social media perspectives (robotic THA)
+39753404,TRUE,Clinical trial; Telemedicine decision support
+39754386,TRUE,Clinical; Patient-reported symptoms in early PD
+39754799,FALSE,
+39755686,FALSE,Other — Spatial proteomics (cell-level segmentation corrections)
+39756276,FALSE,
+39758829,FALSE,Genomic + Clinical-grade Computational (CRISPR off-target)
+39760657,FALSE,Other — Guideline/Review (cancer AI standards)
+39761942,TRUE,Clinical — Imaging (ocular metastases CT/MRI/clinical data)
+39762426,FALSE,Other — Policy/Consortium Statement (AI clinical trials)
+39765174,FALSE,
+39766395,FALSE,
+39766451,TRUE,Imaging + Clinical (multimodal brain age estimation)
+39767941,TRUE,Clinical (neonatal preterm)
+39771146,FALSE,
+39771685,FALSE,
+39771696,FALSE,Other (AR‑enhanced robotic system for epidurals)
+39771697,FALSE,Sensor (vibroacoustic signals from transformers)
+39771775,FALSE,
+39771944,TRUE,Sensor (plantar-pressure gait data)
+39772389,FALSE,
+39772578,TRUE,Imaging (cervical CT) + Clinical
+39772751,FALSE,
+39773407,FALSE,
+39773470,FALSE,Other (editorial on AI blind spots in colonoscopy)
+39774637,FALSE,
+39775089,FALSE,
+39775867,FALSE,
+39776222,FALSE,
+39779161,FALSE,
+39779744,FALSE,
+39780148,TRUE,Clinical; Demographics & Oral Health Behaviors + Survey
+39780220,FALSE,
+39782776,FALSE,
+39786948,TRUE,Sensor/EEG (BIS subparameters) + Clinical
+39787028,FALSE,
+39787636,TRUE,Clinical; Textual (NLP from EHR)
+39787711,FALSE,
+39787745,FALSE,
+39789002,FALSE,Other; Sensor/Hardware Integration (mm‑wave radar)
+39789212,FALSE,
+39790568,FALSE,
+39794312,FALSE,
+39794442,FALSE,
+39794466,FALSE,Other; Proteomics (noncanonical peptides discovery)
+39795566,TRUE,Imaging (DTI + DSC-perfusion MRI) + Clinical
+39796687,TRUE,Imaging (CT radiomics) + Clinical
+39797895,FALSE,Other (LLM deployment framework for dermatology trial enrolment)
+39798395,FALSE,
+39799226,TRUE,Imaging (CT scan 2D/3D) + Clinical
+39799370,TRUE,Clinical/EHR data + Administrative (Nova Scotia Health)
+39799515,FALSE,
+39800329,FALSE,
+39801186,FALSE,
+39802089,FALSE,Other (survival modeling methodology)
+39802233,TRUE,Clinical (occupational data for TB)
+39802645,FALSE,
+39802889,FALSE,Other (medical education assessment)
+39803866,FALSE,Other (continence care guideline debate)
+39807280,FALSE,Textual (Education policy review)
+39807805,FALSE,
+39807876,FALSE,
+39808513,FALSE,
+39808641,FALSE,
+39808977,FALSE,
+39808995,TRUE,Imaging & Clinical (non‑contrast CT biometrics)
+39809211,FALSE,
+39809737,TRUE,Cellular immune profiling (single-cell PBMC + lipid metabolomics)
+39810347,FALSE,Other – Serum glycoproteomic biomarker discovery
+39810724,TRUE,Clinical + Metabolomic (prospective cohort on GDM progression)
+39811702,TRUE,Imaging (tau PET) + Cognitive (neuropsych testing with ML)
+39812653,FALSE,
+39812845,TRUE,Imaging (muscle MRI) + Clinical + Genomic
+39813069,FALSE,
+39813181,TRUE,Textual (SMS messaging communications) + Clinical metadata
+39814599,FALSE,Sensor + Environmental (methane emissions ML)
+39817622,TRUE,Clinical; Lab parameters (routine labs) + ML model
+39818746,FALSE,
+39818777,FALSE,
+39820157,FALSE,
+39820318,FALSE,Other (histology annotation platform – PHARAOH)
+39821434,FALSE,
+39823404,TRUE,Clinical; EHR sociodemographic data + Textual extraction with ML
+39823426,TRUE,Clinical; Survival analysis via novel ML framework (CASE)
+39823631,FALSE,
+39826289,FALSE,
+39826393,TRUE,Imaging (CT perfusion maps) + Clinical
+39826701,TRUE,Clinical Trial Data with ML-derived individualized treatment effects
+39827452,FALSE,
+39827837,FALSE,
+39830285,TRUE,Clinical + Textual + Imaging (rs-fMRI connectivity + SDoH + behavior)
+39830613,FALSE,
+39831736,TRUE,Imaging (T1/T2 MRI)
+39832365,FALSE,
+39834107,TRUE,Clinical (ACL performance metrics pre/post reconstruction)
+39834226,FALSE,
+39835208,FALSE,
+39835803,FALSE,
+39836730,TRUE,Imaging (echocardiographic 2D video via DL) + Clinical
+39837138,FALSE,
+39837701,FALSE,Other (junior review article)
+39838298,FALSE,
+39839757,FALSE,
+39840026,TRUE,Imaging (smartphone thermal) + Clinical (perforator mapping)
+39840676,FALSE,
+39841813,FALSE,
+39842544,FALSE,
+39842913,TRUE,Mixed (Quantitative literature + Qualitative interviews)
+39843189,FALSE,Other (Practice commentary)
+39843581,FALSE,
+39843750,TRUE,Genomic (GWAS multi-ancestry bipolar disorder)
+39843761,FALSE,
+39843763,FALSE,
+39843939,FALSE,
+39845288,FALSE,Other (clinical text deidentification tool)
+39847319,TRUE,Clinical Survey (Political psychology)
+39847938,FALSE,
+39847948,TRUE,Imaging (colposcopic photos) + Clinical
+39850777,TRUE,Imaging (non-gated chest CT) + Clinical
+39850956,FALSE,
+39852221,FALSE,Other (protocol for AI-powered mobility tools in older adults)
+39852387,FALSE,
+39853655,FALSE,
+39853720,FALSE,Other (validation of PEACE EGD cleanliness scale)
+39854253,FALSE,
+39854656,FALSE,
+39855805,FALSE,Sensor + Environmental ML
+39855986,TRUE,Clinical + Imaging (preoperative appendicitis ML)
+39856126,FALSE,Sensor + Environmental ML
+39856155,FALSE,
+39856390,FALSE,
+39856756,FALSE,
+39858067,TRUE,Imaging (PET/CT radiomics) + Clinical
+39860799,FALSE,Other (Wearable sensor robustness evaluation)
+39860957,TRUE,Sensor/Optical (compact QCL-based glucose) + Clinical
+39862571,FALSE,
+39863243,TRUE,Sensor + EEG (Behavioral & neural signals)
+39864569,FALSE,
+39865933,FALSE,
+39866856,FALSE,
+39866886,FALSE,
+39867531,FALSE,
+39867738,FALSE,
+39867841,FALSE,
+39869052,FALSE,Imaging + Sensor (Yeast cell microscopy + ML)
+39869304,FALSE,
+39869672,TRUE,"Clinical Trial (cardiovascular plaque, RCT)"
+39869810,FALSE,
+39869912,FALSE,
+39870865,FALSE,
+39871025,FALSE,
+39871351,FALSE,
+39871444,FALSE,
+39873499,FALSE,
+39873860,TRUE,Imaging (rs-fMRI network homogeneity) + Clinical
+39874677,TRUE,Imaging (lung ultrasound) + Clinical
+39874684,FALSE,Imaging (MRI spinal cord segmentation)
+39875294,FALSE,Textual + Metadata (Publication authorship analysis)
+39875423,FALSE,
+39875505,FALSE,
+39875869,TRUE,Clinical + Genomic (SARS‑CoV‑2 + clinical predictors)
+39877429,FALSE,
+39878999,FALSE,
+39879089,FALSE,
+39879563,FALSE,
+39881644,FALSE,Other (review/opinion on addiction medicine advances)
+39882161,TRUE,Clinical (NLP/text + imaging) prediction of psychosis conversion
+39882168,TRUE,Imaging (CMR metrics like LGE/edema) + Clinical (ICI‑M diagnosis)
+39883649,FALSE,
+39885307,FALSE,
+39887196,FALSE,Other (Materials chemistry – battery polymers)
+39888607,TRUE,Sensor (smartwatch inertial data) + Clinical assessments
+39888985,FALSE,
+39889232,TRUE,"Textual (EMS PCR notes, ChatGPT output) + Clinical reference"
+39889245,TRUE,Imaging (digital histopath slides) + Clinical trial outcomes
+39890228,TRUE,Clinical + Textual + Demographic (social/health disparity ML)
+39890587,FALSE,
+39890783,FALSE,Textual (NLP analysis of national climate docs)
+39890848,TRUE,Clinical & Imaging (VQI registry TCAR procedures)
+39891994,FALSE,
+39893183,FALSE,
+39896021,FALSE,
+39896051,FALSE,
+39896145,FALSE,
+39896624,FALSE,
+39897501,FALSE,
+39897541,TRUE,Cellular Genomics (patient-specific PAH hPMEC transcriptomics)
+39897572,FALSE,Other (RCD methodology review)
+39898310,FALSE,
+39898548,FALSE,
+39900787,TRUE,Clinical; EWS vs ML latent health representations
+39901778,FALSE,
+39903072,FALSE,
+39903682,FALSE,
+39904047,FALSE,
+39905140,FALSE,Other; Wearable data with label noise & human refinement
+39905466,FALSE,
+39906044,FALSE,
+39906065,FALSE,
+39906543,FALSE,
+39908277,TRUE,Survey (ChatGPT use in higher education students)
+39910290,FALSE,Other; Institutional framework for ethical AI
+39911337,FALSE,
+39911557,FALSE,Other; Platform for personalized ASD care
+39912640,FALSE,
+39914162,FALSE,
+39914417,FALSE,Other (oncology commentary)
+39915053,FALSE,Other (conference proceedings summary)
+39915959,FALSE,Other (MS proteomics workflow)
+39917060,FALSE,
+39919138,TRUE,Sensor + Textual (smartphone digital phenotyping)
+39919314,FALSE,
+39919385,FALSE,Other (veterinary insurance ML)
+39919411,FALSE,
+39919748,FALSE,Sensor + Imaging + Spatial Transcriptomics (mouse NSCs)
+39920123,FALSE,
+39920503,TRUE,Clinical; Sensor & Ventilatory variables
+39921557,FALSE,
+39921576,FALSE,
+39921727,FALSE,
+39922281,TRUE,Clinical; LLM-based vaccine response analysis
+39922413,FALSE,Environmental + Big Data (groundwater microbiology)
+39922810,FALSE,
+39925268,TRUE,Clinical; ECG + Imaging + EGM & Lifestyle data
+39929894,FALSE,
+39930139,FALSE,
+39930743,FALSE,
+39931096,FALSE,
+39931318,FALSE,Other; EHR decision-support development
+39933043,FALSE,Other (no abstract found)
+39933053,FALSE,Other (systematic review of predictive models for post-ERCP PEP)
+39933211,TRUE,Biochemical (saliva hormones; ELISA vs LC-MS/MS)
+39933253,FALSE,
+39933269,FALSE,Molecular Dynamics + QM/MM (SARS‑CoV‑2 Mᵖʳᵒ inhibition)
+39933666,FALSE,
+39934670,FALSE,
+39934908,FALSE,
+39935506,FALSE,
+39935956,FALSE,
+39939711,TRUE,Genomic (circulating microRNAs) + Clinical (AIS severity prognostic)
+39943298,TRUE,Sensor (accelerometry during daily tasks) + Clinical (CP function)
+39943430,FALSE,
+39943622,FALSE,
+39943856,FALSE,
+39945115,FALSE,
+39946412,FALSE,
+39947781,FALSE,
+39947992,TRUE,Clinical & Imaging + ML (high-sensitivity troponin)
+39948003,TRUE,"Multi-omic (plasma, synovial, urine miRNA + metabolomics)"
+39948393,FALSE,
+39948641,FALSE,
+39949129,TRUE,Textual (EMR notes) + LLM (LLM surveillance for HAI)
+39949161,FALSE,
+39951285,FALSE,Other (polygenic risk score tool)
+39952550,TRUE,Imaging (pediatric TMJ MRI segmentation + classification)
+39953105,FALSE,
+39953142,TRUE,Sensor & Clinical (driving behavior + depression)
+39953289,TRUE,Clinical; Imaging and Procedural (AI‑guided AF ablation RCT)
+39953355,FALSE,
+39955398,FALSE,Other (self‑supervised dataset cleanup in federated learning)
+39955608,FALSE,
+39955616,TRUE,Clinical; Immunologic & Veterinary (canine osteosarcoma trial)
+39956264,FALSE,Educational Policy (pharmacology curricula review)
+39956806,FALSE,
+39959563,FALSE,
+39960578,FALSE,
+39960872,FALSE,
+39961605,TRUE,Imaging/Clinical (pathology scores)
+39961912,FALSE,
+39962045,FALSE,
+39965195,FALSE,
+39965473,TRUE,Clinical; Imaging & Clinical (MS progression time-to-event)
+39965740,TRUE,Genomic (GWAS asthma severity)
+39965945,FALSE,Textual (Canadian AI in healthcare scoping review)
+39968539,FALSE,Other (dashboard co-design)
+39968546,FALSE,Other (AI implementation strategy)
+39968547,FALSE,Other (Qualitative survey of healthcare professionals)
+39968552,FALSE,
+39968560,FALSE,
+39968562,FALSE,Other (conceptual digital dementia tool)
+39968563,FALSE,
+39969962,FALSE,
+39970054,TRUE,Clinical (diet and bone health)
+39970977,FALSE,"Other (cost-effectiveness modeling, drone AED delivery)"
+39972104,FALSE,Imaging/AI (CNN simulating visual cortex degeneration)
+39973876,FALSE,
+39975240,FALSE,
+39975425,TRUE,"Imaging (vertex-wise brain sulcal depth, curvature, thickness) + Clinical"
+39975842,FALSE,
+39976703,FALSE,
+39976857,FALSE,
+39977307,FALSE,Other (RNN modeling plasticity/dynamics)
+39978014,FALSE,
+39978174,TRUE,Clinical (longitudinal multicenter cohort)
+39979183,TRUE,Imaging (3D Ultrasound)
+39979257,FALSE,❓Unknown
+39980664,FALSE,
+39982117,FALSE,
+39982930,TRUE,"Imaging (rs-fMRI: fALFF, ReHo) + Clinical + Demographics"
+39983007,FALSE,
+39983282,FALSE,
+39983647,FALSE,
+39983650,FALSE,
+39984362,FALSE,
+39984553,FALSE,
+39985144,FALSE,
+39985309,TRUE,"Imaging (DTI, deformation-based morphometry) + Clinical"
+39986844,FALSE,
+39987144,FALSE,
+39987437,FALSE,
+39987832,FALSE,
+39989135,FALSE,
+39989910,FALSE,Other (Open-source imaging software)
+39990273,TRUE,Imaging (T1 MRI + DBM) + Clinical (neuropsych testing)
+39990570,TRUE,"Clinical (baseline labs, antibody titers, viral load)"
+39996880,TRUE,Genomic (whole-genome & transcriptome sequencing) + Clinical decision-making
+39990959,FALSE,
+39992653,TRUE,"Clinical, Imaging & Environmental + Epigenomic"
+39993226,TRUE,Clinical & Textual (free-text patient experience surveys + NLP)
+39993313,FALSE,
+39994118,FALSE,
+39995377,FALSE,
+39996880,TRUE,Clinical & Genomic (whole-genome/transcriptome sequencing)
+39997158,TRUE,Sensor/Auditory (Age-related AI speech identification)
+39999879,FALSE,Other (ML optimization + mechanical design)
+40001842,FALSE,
+40002280,TRUE,Clinical (longitudinal COVID-19 cancer cohort)
+40003977,FALSE,
+40004209,FALSE,
+40005389,TRUE,Clinical & Sensorimotor Rehab (EMG & robotic-assisted rehab)
+40006235,FALSE,
+40006312,FALSE,
+40006355,FALSE,Sensor (hand gesture via Leap Motion + causal ML)
+40006404,FALSE,Sensor + Vehicle Dynamics (electric vehicle braking)
+40008946,FALSE,Sensor + Electronic Physics (delta‑T noise)
+40008968,TRUE,Clinical + Imaging (chest X‑ray CXR)
+40010162,FALSE,
+40012896,FALSE,
+40014814,FALSE,
+40015191,FALSE,
+40015982,FALSE,
+40016861,FALSE,
+40017797,FALSE,
+40017908,FALSE,
+40019201,FALSE,Other (Software tool for molecular modeling via ML)
+40019821,FALSE,
+40020876,TRUE,Imaging (pathology slides)
+40021833,TRUE,Genomic (nanopore epigenomic)
+40022253,FALSE,
+40023050,FALSE,
+40023176,TRUE,Clinical (DOAC vs none in ICH+AF)
+40027119,FALSE,Other (oART training curriculum)
+40027338,FALSE,Sensor + Time-series ML (industrial data)
+40028128,FALSE,
+40028654,TRUE,Imaging (sMRI texture analysis)
+40035037,FALSE,
+40037055,TRUE,Imaging + Tabular (EHR clinical/integration via hypernetwork)
+40040965,FALSE,
+40041037,FALSE,
+40046346,FALSE,
+40059323,FALSE,
+40060479,FALSE,
+40060526,FALSE,Computational Neuroscience (spiking HD model)
+40066012,FALSE,
+40067846,FALSE,
+40070487,FALSE,Other (conference proceedings – neuromodulation/DBS)
+40071099,TRUE,Imaging (CT lung) + Clinical (lung cancer prediction)
+40076446,FALSE,
+40083295,FALSE,
+40087085,FALSE,
+40091888,TRUE,Clinical + Imaging + Tabular (kidney transplant clustering)
+40092525,FALSE,
+40098374,FALSE,
+40099144,FALSE,Opinion/Textual (mental health AI)
+40100864,FALSE,Other (scoping review of pain/symptom maps)
+40103927,TRUE,"Clinical (multi-modal biomarkers, cognitive)"
+40104696,TRUE,Genomic + Clinical (ICDRS ovarian cancer prognosis)
+40110227,FALSE,Sensor + Imaging (optical neuroimaging)
+40121807,TRUE,Imaging (sulcal pattern graphs) + Clinical Subtype Interpretation
+40123640,FALSE,Textual (conceptual analysis)
+40125292,FALSE,
+40131365,FALSE,
+40138322,FALSE,
+40144085,TRUE,Textual (survey on medical students' AI readiness)
+40147056,TRUE,"Clinical (labs, treatments, time-series features)"
+40152019,FALSE,Other (AI‑powered virtual tumor board implementation)
+40160858,TRUE,Clinical + Imaging (metabolomics + XAI in heart failure)
+40161559,FALSE,
+40166696,FALSE,
+40176873,FALSE,
+40179121,FALSE,
+40180531,FALSE,
+40182983,TRUE,Imaging (fundus photos) + Clinical
+40199288,FALSE,Other (social media–based precision prevention case reports)
+40217440,FALSE,
+40224573,FALSE,
+40230682,FALSE,
+40256199,FALSE,
+40264860,FALSE,Omics & Clinical (immune‑glycolytic signature in HCC from TCGA/GEO)
+40270567,TRUE,Sensor + Clinical (BCI-powered power mobility in children with disabilities)
+40270591,TRUE,Metabolomics + Genomics + XAI (Down syndrome biomarkers via plasma LC‑MS)
+40270958,TRUE,Transcriptomic + ML (blood interferome signatures in uveitis patients)
+40272881,FALSE,
+40290270,FALSE,Other (framework for AI deployment in remote/Indigenous Canadian communities)
+40302730,FALSE,
+40308295,FALSE,
+40313867,FALSE,
+40336660,FALSE,Other (ML/AI in CPR review)
+40322527,FALSE,
+40432773,TRUE,Neurophysiology (thalamic firing + connectivity)
+40337261,FALSE,Sensor + Environmental ML (coral reefs)
+40343925,FALSE,
+40344152,FALSE,
+40353026,FALSE,
+40353029,FALSE,
+40359182,FALSE,
+40378117,FALSE,
+40403028,FALSE,
+40407404,TRUE,Survey/Textual (oncology patient views)
+40421375,FALSE,
+40424440,FALSE,
+40452951,TRUE,Imaging + Clinical + XAI
+40435158,FALSE,
+40440093,FALSE,
+40440289,FALSE,
+40448324,FALSE,
+40314028,FALSE,Other (AI-generated educational content)

@@ -1,0 +1,758 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=map-usa-pie&code=LYewJghgNglgLgTwMIiiATgZwAQF5sDeAUNqdgOQCyASgJLkBcFAxAEYAMAxgJysAc5ADQky5JABVsmThAB2mRiwBiAdgBCAQXbshI0uQCqUOOgiYQAV1lhF5ZhADMAU1asAjLrIUAot4DitsxufNwQrAAsnqJ-TrIgwDCcCkx2GgAiAKzsfDrCXuQAZjT0KcxOnAV8KgVR-gAK3uKBYOEFbgWRRAC-ANx6XqRERABuEOjYIAAOcDAgsniE_QD0S9gzcFBOTMReKwNwTgAecCkoUFBhGBAzc9iUEJPYAO7wABZ34NDwME4KeWR7LybAonCicWIHdDkZarLr_Uh7OAgVAzSbbGH7dAwADm2Kc6BS8CcwFq2EBZAKGGA10hKQIrC6204XWhu1h8Owmzx1nRAzIkDgECYAG1-nzSARsLIIMAthRikJsIk5il0JZrNRynBFUTgABlRCbBgETioDAMUCQWCIM4YTDCqh0cgAXS62DhYvFkulstOkmkcj-StNslV6rAms42sESoO-sNWxNZoJlq-NuT9rE_pk8hdbo94oG3plcsMxlM5isNhjytDFDVVcj0djxINCCNSbQKc-1uQGYdRhMZnDefdHMLxd9Pn8OpDYcbWp1cbbHdNXYtPfgfa7md8AVdY89fMnpZicQSSVnKvr4abS9bCeNa_Nqd7tqwDrP8USCgPBcLZAnikRROjWc43guUb3vG7aJs-3ZWlu76ZiB9B_uOXpSiWKQNE0YHXuQDYaouNbLo-nYvpu6Y7g6uGjl0R7YM6GGkEiaIUGxpJAk4IIpOCsiQlxAKrAcxwrnKOziuSpDwaU2g6GSqwaGAABWFiYHAnJONyYBrEcmnwUqBRSk4ThgGZjF7AxXj_qQmD4j8mAioxkkAVhU7kAA6hgUC6fckxCXyiCTKW1IBSxAxhSkTw-dWjFeGqMpMCYFhOBFQJhE4UC8m5AyYK8IBPEwBTQPZ8VkLZAG6uJOW5WQcToNS2WLHVhasBg5noO-pRuL1iqKdg74TMZcCvE42CmlYJgINg7XoJ1mDlW5YxOBA3UsGAKhgA4nAeDGwnYGkPEQBYxgTcmw1rGN51TVivzPG8liaQKEBLQMlV1XsxKTK8ZgwE5LWtQiqxeCta3JqUGThCo7BIAAbOQwPYAAEjirywNirwHLphlPGN8wFcM-JmRMRPjBAN0CegCBvWy7pvR94ovc5QMSu5pZIHIECQIqoxQKlTAAExw3wDiHqzhDsykBiyESukGtcvy89AAvYNw7DcOLrNARQMty9gADSMCyNiYDxMr_NysLbha0DOtiK8xsQBbquCw4Ki2619sxI1cgIC7Vsa_TdXMW91LoAA1gAMsbEm02QmAIMA7XNQ6nAwOgnCbIqhG3ouocS4nyeoHqMAAF5ysKGQxhkBes7AshODVgMSzJEMsFDMPw4FrUvGAo1MG46W5cFpbmLANjx6QjNuRcrBZbVrf5YVxWlU4U-e3VzPYKKrdkLve9FlLFCc9KPMxqaHUigAtG47CCwAdA44QizXfAP24DjsOEzqb4f9tRxADIG4shFSX3mjfO-j9n6vzVuwX-1lD51z3gfQ-gFj6GD1BoMByIIE72vtwbgD9BbV2wA4Ihtc_57wAUA64sxQEX1wWASBX8YzkIfpQxBe9kGt1QWgyWPpSx62xobY2ptzaMKvvgx-pCoYcIQcPO2GDAHAPoTgqRwpr6C3YDXcI8jg5IMUQBPhaD7ZIEdtKdReDhR3wcBwthcN9Ez1bjQ1RcwrHMJ3m4cIpCHCOM4RvLwPCJYmP_hgn21JZD-0kdYu-D8fFuAyMLGubgP5wwyHDbgbgFGBMwoIlIKi6HuJiZ4mx7B4kZESck7AIQEG5NIM6DejS6rOK8OHCOdQQDG1BK5VqRcU4pEmMbHuhZ-kl3LnKHRG854LxbkvAqRU1joFSkYwslJfZwFpNgAoVgoz0IABSTDGDKTAABKOZaCYDGUOcc4AmAH4vXOb0_h2B0BODgBYdA8xyAEGpMbAAPojAA1NgI5pg7kPOuBAB-gjsAgvICyPoLy-R7DeR8r5FBfkQABcC0Ftz7kvRhSWOFFAugAB1ZAEBCpnCEEA8SApJWCk5kLBQP2pfxQUeISXkAAKSIvqe9AVCV3mfPmEyiFgikWH1ablWSLB5IjNypSASpcK6D3CKs8Uyq4CeScGjUE5AU5xTQViTgrxF5oL-XWZ5yK5V2BUBkFQTqBCaqBtq1VcpvGutatq3V-qUhGsVXvL42I6zkA5fiINrcyYzBkFADQGMw0JDAGAbOQqKresLOy2leILW2vbnYbgcNvBuG8LkdNfJ3UTPVZmpVcwdV6sxgawNtblqJr4hCSNraAIxsSNABNOIk0wBTWm5FBi94yrcpMEAmBvgEU4t2vYIACgFHsqCYUOjsB32aazSdAxt6hKUfkk-GgABy6RsElMgW4aBL8-AxnVsxbAfNVZiC5ufUF-IOV0qtprPdE4MEGCwR4yB4RN0OFrjGF9Qi9SKmzQJH9TB3bEKoUe7CusDYgekSoGu8CoMqyEZhmM8HOWevKR7f9eT0MOydlhmxjrBAOAcE-6DpwLHO2I1-nNcoiEUe7QI6jES_Z0cFqkhJSS4YPrw8-gjKQhNRLg1xhDuaakcNQ7lJpDNGLOL2JQKiM0zVjDgDgdZ2BVpmsptNSyqxT7c1ehON6x7yBfgvH8N6o8A1jCjRpCAnAI4pFfN8X4AB9HMdmo0HpkU-vYdQlOkewC9bZGAPiIUQFu7A-zbOQFOW9aqj4Lmyvbjs2Qey5g3PBWcgrQMQzjycA_NA2JyvMvsndTAp6SynKlXvNForsCBeonaYU4r7ktccu12UzoegDQ0JgWdoaEtXIKMTASUhfrmRM2qYAV1xolQSFAGmEsuEAT3TM5qkpl6LJSmlUFM651huNrO8yip1nUk2fiOkzIeWIz3YcDQhx_q0GsEcJgUy6oID-wDoHhwQfaYijavkTm9xRo8xQVgXmjE-b8wFqijlQvvo429SLD8-DRdWLFmlynxqJdM3p1LM1BYZayxAHLdU8uwTzW5OVxXSuyCa3cp5AqauoDqw1vnI2HK_HG04TrAqesYv69uQbw2H6jclyWSb03ZuDoWyu5bml8rc3ugUTb23tkyhgPtjeR3Cwncymd1bK8lkrJu7OkBhJ5DDqcM9qkNJ3uYs-99oxv3_uYEB-ZaH2BQe5XByHsPwPI-w5co56jg4KwjiMSjw16O3qY_8xQfruOwvn1y2RdnVWAJc92SAsXAu0FC82PVkAjXleq7ax1rrrc5fzAV8hIb-KVcS7bxNqbewZtzfmGARbevVuG42_EU3u2LcHd3QzIxB67GC1J9gcn36uXU-S7TtMM0xaZfxyz3Kp3tgO8u8s6707Xf0Pd49r3MYXu-4JP7roX31NkGD5D8PIORiMe_-8e7AieDmdUTmEgUgOYbmdUmeaOUIGOgoWO-eOOIWReBOW8UKIo_iW-O-3GCWUKSW4wh-vY2A4QjOZ-JeD4Ze8OFeRWVeByw2teh89eIuTeYuA-rWUuMuJqIq8u-mveLeg-UuGuo-Wu82k-uubyK2Bu622yJuo0O25uluh2q-b0l-ksF2yUt-xGt2buFAD2nu3uGyWyPyAeP-pAf-oeUOgBb0wBthABCeNucOyeHkCoGeCAIUnmSBOeKBee5ABeGB-OUabORo5ehYleJW1eLBkRhW8gwujeze_erevBHeEsXefWQh_YIhPB6uI-SkkhE-U-sh-ua2RuSh10i-ahK-LSa-OBXidikGA0BBlORBgoJBKWR-2AGQVBZ8zOmhduV-OhTud-Bhj-RhHuT2r-Pub2H-FhX-geb0NhceEeUebkjhaxMOrh1m2AQGGgSekB1GSOXhPhqO2edUue2OqWuO6kWBuUkW-BcWP6HRFMNO-m6W-yBx5-bk4RccEs0RPONe8RnOcwtWyRXBaR7esuAh3eORNEeRY2BRmu4-OuS2ZRM-Chxu8-yhZue2y-QM1u4otu889uoxV2-hD-BExhMxJBr25hJoSxVh2AqxdhW6QBEOTh8ebg4BXo7hpYqEyO3hpYiB3mARNxaYdxmADxbkROzGMYMWLxe-xBHxdO2ADO3xWCvxVUpeER9BURjBMRzB-KrBe87BkJSJausofBh8WRPeuRqRohKJEhaJ0hGJEIWJlRuJ1RqhhJrUxJfIpJsy52Cyuhzu9-d2T-JhsxZhfuix3-P2XJ2xHJDhyZ7JvJuxEBuUTmLmP4wp5xWefhVxEpaBtxIW9xEWjRwodicMzxFO8W--pBnxJ-PxNBME-pG8QJsRppoJDBiRDeouVpQ-0uGRrM9pCJSuTp-Rw-qJ2u7p0-8h3pW2eJNR_pLSGhdUWhoZjulJLuUZUxz-phDJ8ZTJiZQe6ZzhQ8aZseGZfJx4ApfoMBgYBZoplxuU1xZZUpFZMpVZgoIoGQD8dZipZOypVOqpB-nxlBWpGgOphY_xHODB642yTBZWcRBpCREJQ505yJNpY5QME5dOwhOF1pTg4hRRbppRnpS5c-K5vpBJVum5F-wx2hYZYxVJB55AtJL-9J7-H2zJSZt5V5nJQlPJ95RYj58ooE7mIpvh4pvmgRwRmAwWlZDR_5O8FC9Zu-4FnRapPRfRMFcF4oCFfZXg3ZJpFWZprcFp2FFW3BuFo5sJ6K8JRFjpdl0Js5rp85VFchFRtFC-fpjF9RQxZJIxbFe5kZhhXF0xPFb-8x_F55Kxl5PJIlIBEemZJJEUew8m65gEkl5AdEZxb5xZH5pZQR6BylFgEcYRepAJrM5laFvZGFYJA5HBKR7lzpeFTlvWDpiJJFI55F2AY-3lMh1FflihPpKhDF6hwV2B6lwoj8JOIF2-YFbxXRZBW4XxBgBsRlfI251-4Z4x1J92MVx5fFn-iVdUbJzhgsqV3JEegs4lXgzVGCpxMlhZYpyBClkp1odx1ValQoO8eiCprRq1TZ3R5Bmp21u1AwJlL1ZlRpwJ6Fgu4JSRtlzWnVjl_Bzl2RrlfVHVM5ZFhRQ1xR6Ji541OJdFU1S-QVuUwZ5J4Veh-5UV3FZ18VF1yxV1yVD1d1KZj1WZ_JxxHk0BAYuYRVclX1qB5V5ZlV_1hO1ZKgQFWlhB4NG1aWrZO17Zzc8NZADVvOyNdeqNg5nBw56R3VgheNU5BNDlg1w1UhPl5Rs-E1VN-JNNM1dNRi-1FJTNkVkx0VR5sZJ5CxZ5nNuU118et1N5aVQsT1eVQtgpnh71xV8lUtSlKlctc1gNNi2Sy1bRjZEFzZ6p0F0NWt-WOtbcyF3OPZllpl4oNlJt_VZt2NPVk5H4ptLpFFI1HpvlTtlNAV01dRHtIVIZB17FzNftrNgd51CZodbk4dPNUd91MdAtD58dKQid8BslFxJVbkn50t35stf5WdbgjiS1oNDZrxqtnxBlJdrOtViFhpldqF-tTVKNrVlpjdMJzdFtR-xF1tpFttpNC5mJNFzt_dbtg9bk9NYVu5PtExNJp1U97NM9LJ89QsvN7J_NmVex5iTsRxOZJxM44t29KdilFVoW7GR9Ioj8Od592la1el5BNsmW7GMNXgcNXZiN1dJyVlgJRtbVUJmNtp3WcJuNv9blGNhNgDlFo1Pd2JVR1NtRRJTFs8LFO5N-EZ8DJ1AdvFyDIdqD3NSGGDzhDgsdEo-VeZl4xDRZpDP1QWylZqtGAN1D8iudYNBdENm1mpuD0obDZAHDfDT9xpjVNd5dAw9d7VkjDlwjneojvVVtUTADxNdtJRsjjt8jk1rtSjAZKjAEXtjNmjx10ZdJcVjJlhgl0dZCxj8epjK9Ela9FAQp1jn1_h31X5v1GBlDzjO8j83Ayt7RV96pJ-Pjgxd9tBnZgT5oKFwTL9oTb9WFDd_9I5MTmRcTrd9o7dnlnd9taTXp_lq5gV7tUDntajo9EVWjxTsVcxZTAlF5olEeDg1TDzZjfZUB2YL5zT75u9ZVadjjli3Twoeim-bjF9KpulkFRdjOrDpddBnDQTSNr9ht796NEKHlWNdpazltbdn9WzJNMj3d6Ty54D2TG5s1zFoVrFsDhTnFk9ujNzl1YdhjVTi9KZtT2D2ZbkTmG9I8W9NjktZDMtFDTj8t81N6xC_T-d4Lhd-lULTsfjpAAT9VXDFlPDtdfIETgjhNKz45mL4j-NiTA1yTQDDtezYDBzA9yjZLqjFL6jh1HFLNiDdLp55TdzlTjzLL7JbLQZWVqwwiJMRsJsZswA-DnL1GTTSdEtrTqd5DeIvsCmALqSZ9SpoLOl7xELPRzDOV8rLYHZdV1WyrITqrYTCNyLizBrTdGLON8T2LSzYhRr-L5NvdCjWTuVUDuThY-TVLR1NLjrpTzrtzSV9zTAGqHrzh4QLzL1bzz5YtEbJD_LdjMwIWsbkS0SIrWddiINyb9DgzPRmpWbMLEzSr8L3D_Oar4T_DH9tbX9lbLdWLGzOLRNc5OzBLprfd5rEDlrQ9W5pz3t1LDrOjfbwdLrg7lTI7YOTL47dTz1-Vb1m9H1XzAEe9ady7wmALeitDW7KtHjatx-GW-7YzubD9ddBbszRb8zaNZbqLQj-FrUhFerCTVHUj9bXdjbGTLta5tNxzw9DNXb9rE9vb1z_bDLc9EHTzw7E7FjsQ34Vjs7fLUbArB9wWKH8ba7AFD8fTIL272HUFeH-IK72bir-bx7Krp7xbutF7KL4uWrNHdUdHb4EjjHNtzHz7rHRL77JLdN7b4onbGj3b_7MZTrQHA7XNQ7FBYnFBEnDTjo9AnzO9iHPzMbenqHB7ebrUetIJZnbcpbkTjnpF2rBFur9n-ruXhrT7qTL7oDb79FH7OTVrAEB678GndDWHUrnjaWBl-H5LI9v7fn_HAHgnQXwnAEaDYXo78ekH7L4oIbrUUB6oJgjkUaXgCBCHmdLMh86s3A-0ewfr8sgoBwi0aC1sW3vrssIiAb4iwbh37sx3g07GAq2im3SMOVAqbg3AjzSMSgpgJW68aC3i96SMp67yY06AFw1gB3h8n8kmSMGg6kQ4sA9mEPgsGqSM4gnyEcTgrbrUvUyPA0tAgoHnQMd8msSMeoLwcAFcIPcgYATS3qCFZnskdg7AUMPiXuVu3q25AqPX3avt86Uwi34oaoe3PGGxrcy6q67yIoYGNcwSrMgHxUz9GXFa508gmkSI-PAAagRgsBtyStbLr-7Lr0HCCq92LMb-EHwCSpD5b0j5b94pbxrMTeICAPjxNNAJwKdEUrIErzVppCRq8fgPslwdBmSGsM79AJr5bOcgAFRbraCnIPxIhKAwCHBmT7JuD5exM40AAGAAJFSv3tBm6Psnn373iF_qclnzZ554dt6iN9XBvFseyRkFpkEhyDYWt6vTy4WcAtpBgKu6tzvG-gMS6EYtiFiGACmSL4WBACHjHI3DA4siVFAPZCyTP_9FHD-2xUvyv3upgJMNaHPxJKPdv-NIGahi9Znj39iH31Q4PwcSP29GP8OimdeXVGv5gIfwv6vMv6f0Yu_xvza2P5rwWSe_A_rHC_5m4f-46d6G4Tg6lgr-N_AFoYFO7-sxEQbB_nVCf4T9MGf_WfuAMpaL9gBe6f_pv0dwn8QB-_eAJ_wIHf8d-kXLvvAMVjX9qYt_B0CMwwG5QsBrLXAev3wG2tIBO_HgR_1IGECoBu_SgXAGoH8DyBZ_ZxBf15YICWBSAnKhwLchcD2SYHXKP_z4FACxBQggAd1y35ECMcEgqQboLoFQdoOEsS_kwMQEbwD0AqAAEQ7dsACsfbo4JjBOCXB53INh4OwBOCRmfgpwTlSCFoJHBn3OQOCFCGHxHBgPZQpTzB7RC94jgmHhpFMDw8khrcRwaj0jgY9MhEsRwXj2gAIB8hrMRwaT3gAU9QeYARwTTw3jqDnC9fCWCQJtYCpuk-IPmPYRNRh8Dgw7Zvkc2Oz9AeEjhDvvUwYEpBoMUaBoaAX0E6DRiMg_QSINoG_8c8pguYUYLEH0C3ImeSYaP3H4v9Zh8_GgQIJWFv9Z-Swk4RQLAFHDpBRArYQBB2EEYph-wnAW9G0E3DzBpwrQecMAHzDjBqw64Ufz-GbDLB5jOARMKeF7Dn-nrQ4UCI2GCC3hPwwwWQP-FXE1hHw4ERYMm6d9thvLXYY_xeFjtYREAhYYiPX4XDSRaIwESSLuGgi-yjwy2M8OhGNDiRxwykd8PJGAD44mIn7l-w_Loi4RKIkEW5G0xDCOQWA0YVYIvw8QDUd8L7BnimApA-A8ot6H3AHgUBtEKouqGNH9QUBEkX2e4R2xlEpBAKGQLUSPEVEUAmM5otyGqPNQaj2ANogCDqKbQpB9RrIbEUfD2DLtNCxoq0RQidGFg2IKQFQIGPFB2iUgmoqNC6KxhuizRHo71i5AGh_MEes8P0eQBUDcAwxQUS0eQGfjZiBgEYh0QWK8AxjZR8YidgNCqq-jeIVotwCWLIDBiNRWYqNEWPIBRijEZYuMQaLpEvVgQBqZUcjlzFwxyk8YoxG2I7FvQuxeoisTbjFH9BECnkYdOqPIDujugPQIAA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    modalityColors = {
+    'MRI': '#b0c9b8',
+    'CT scans': '#F7BA00',
+    'Ultrasound': '#a3ebb1',
+    'EEG': '#189ab4',
+    'Genomics': '#AD5080',
+    'fMRI': '#ecf87f',
+    'PET': '#d4f1f4'
+};
+         
+
+var option = {
+    // title: {
+    //     text: 'Collaboration Map with Modalities',
+    //     left: 'center'
+    // },
+    // tooltip: {
+    //     trigger: 'item',
+    //     formatter: '{b}: {c}'
+    // },
+    legend: {
+        data: [
+            { name: 'MRI', icon: 'roundRect', itemStyle:{color:modalityColors['MRI']} },
+            { name: 'CT scans', icon: 'roundRect', itemStyle:{color:modalityColors['CT scans']} },
+            { name: 'Ultrasound', icon: 'roundRect', itemStyle:{color:modalityColors['Ultrasound']} },
+            { name: 'EEG', icon: 'roundRect', itemStyle:{color:modalityColors['EEG']} },
+            { name: 'Genomics', icon: 'roundRect', itemStyle:{color:modalityColors['Genomics']} },
+            { name: 'fMRI', icon: 'roundRect', itemStyle:{color:modalityColors['fMRI']} },
+            { name: 'PET', icon: 'roundRect', itemStyle:{color:modalityColors['PET']} }
+        ],
+        top: 'top',
+        left: 'center',
+        // textStyle: {
+        //     color: '#000' // Adjust legend text color if needed
+        // }
+    },
+    series: [
+        {
+            name: 'World Map',
+            type: 'map',
+            map: 'world',
+            roam: true,
+            label: {
+                show: false
+            },
+            itemStyle: {
+                normal: {
+                    borderColor: '#111',  // Color of the country borders
+                    areaColor: '#d7d3c1',    // Default color of the countries without data
+                },
+                // emphasis: {
+                //     areaColor: '#5470C6'  // Highlighted color when hovered over a country
+                // }
+            },
+            data: [
+                { name: 'Canada', value: 2683 },
+                { name: 'United States', value: 909 },
+                { name: 'United Kingdom', value: 261 },
+                { name: 'China', value: 237 },
+                { name: 'Germany', value: 209 }
+            ],
+            markLine: {
+                symbol: ['circle', 'roundRect'],
+                symbolSize: [5, 5],
+                lineStyle: {
+                    color: '#5470C6',
+                    width: 1,
+                    type: 'solid'
+                },
+                label: {
+                    show: false
+                },
+                data: [
+                    [
+                        { name: 'Canada', coord: [-102.3468, 58.1304] },
+                        { name: 'Location', coord: [-102.3468, 90] }
+                    ],
+                    [
+                        { name: 'USA', coord: [-99.25, 39.5] },
+                        { name: 'Location', coord: [-130, 39.5] }
+                    ],
+                    [
+                        { name: 'United Kingdom', coord: [-2.5, 54.5] },
+                        { name: 'Location', coord: [-20, 54.5] }
+                    ],
+                    [
+                        { name: 'China', coord: [103.5, 36.5] },
+                        { name: 'Location', coord: [145, 36.5] }
+                    ],
+                    [
+                        { name: 'Germany', coord: [10.451526, 51.165691] },
+                        { name: 'Location', coord: [10.451526, 89] }
+                    ]
+                ]
+            },
+            markPoint: {
+                symbol: 'pin',
+                symbolSize: 0,
+                label: {
+                    show: true,
+                    formatter: function(params) {
+                        if (params.data) {
+                          return '{main|' + params.data.name + '}';
+                            // return '{main|' + params.data.name + '}\n{percentage|' + params.data.percentage + '%}';
+                        }
+                        return params.name;
+                    },
+                    color: '#000',
+                    fontSize: 14,
+                    fontWeight: 'bold',
+                    rich: {
+                        main: {
+                            color: '#757778',
+                            fontSize: 14,
+                            fontWeight: 'bold',
+                            align: 'center',
+                            verticalAlign: 'middle'
+                        },
+                        percentage: {
+                            color: '#96E1E0',
+                            fontSize: 14,
+                            fontWeight: 'bold',
+                            align: 'center',
+                            verticalAlign: 'middle'
+                        }
+                    },
+                    position: 'top',
+                    // offset: [0, 10]
+                },
+                data: [
+                    { name: 'CANADA', coord: [-112.3468, 90], value: 'Canada', percentage: 29 },
+                    { name: 'USA', coord: [-140, 35], value: 'US', percentage: 37.2 },
+                     { name: 'UK', coord: [-27, 50], value: 'UK', percentage: 10.7 },
+                    { name: 'China', coord: [157,33], value: 'China', percentage: 9.7 },
+                     { name: 'Germany', coord: [21.451526, 90], value: 'Germany', percentage: 8.5 },
+                   
+                ]
+            }
+        },
+        // Modality charts for each country
+        // Canada
+        {
+            name: 'Genomics',
+            type: 'bar',
+            stack: 'modalities_canada',
+            data: [2.5], // Percentage data for Modality 1 (Canada)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 0,
+            yAxisIndex: 0
+        },
+        {
+            name: 'EEG',
+            type: 'bar',
+            stack: 'modalities_canada',
+            data: [2.8], // Percentage data for Modality 2 (Canada)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 0,
+            yAxisIndex: 0
+        },
+        {
+            name: 'Ultrasound',
+            type: 'bar',
+            stack: 'modalities_canada',
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            data: [3.2], // Percentage data for Modality 3 (Canada)
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 0,
+            yAxisIndex: 0
+        },
+        {
+            name: 'CT scans',
+            type: 'bar',
+            stack: 'modalities_canada',
+            data: [6.5], // Percentage data for Modality 4 (Canada)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 0,
+            yAxisIndex: 0
+        },
+        {
+            name: 'MRI',
+            type: 'bar',
+            stack: 'modalities_canada',
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            data: [13.5], // Percentage data for Modality 5 (Canada)
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 0,
+            yAxisIndex: 0
+        },
+        // USA
+        {
+            name: 'EEG',
+            type: 'bar',
+            stack: 'modalities_usa',
+            data: [2], // Percentage data for Modality 1 (USA)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 1,
+            yAxisIndex: 1
+        },
+        {
+            name: 'fMRI',
+            type: 'bar',
+            stack: 'modalities_usa',
+            data: [2.3], // Percentage data for Modality 2 (USA)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 1,
+            yAxisIndex: 1
+        },
+        {
+            name: 'Genomics',
+            type: 'bar',
+            stack: 'modalities_usa',
+            data: [3.6], // Percentage data for Modality 3 (USA)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 1,
+            yAxisIndex: 1
+        },
+        {
+            name: 'CT scans',
+            type: 'bar',
+            stack: 'modalities_usa',
+            data: [5.6], // Percentage data for Modality 4 (USA)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 1,
+            yAxisIndex: 1
+        },
+        {
+            name: 'MRI',
+            type: 'bar',
+            stack: 'modalities_usa',
+            data: [9.5], // Percentage data for Modality 5 (USA)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 1,
+            yAxisIndex: 1
+        },
+        // Germany
+        {
+            name: 'PET',
+            type: 'bar',
+            stack: 'modalities_uk',
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            data: [2.8], // Percentage data for Modality 1 (UK)
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 2,
+            yAxisIndex: 2
+        },
+        {
+            name: 'EEG',
+            type: 'bar',
+            stack: 'modalities_uk',
+            data: [4.3], // Percentage data for Modality 2 (UK)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 2,
+            yAxisIndex: 2
+        },
+        {
+            name: 'CT scans',
+            type: 'bar',
+            stack: 'modalities_uk',
+            data: [7.6], // Percentage data for Modality 3 (UK)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 2,
+            yAxisIndex: 2
+        },
+        {
+            name: 'fMRI',
+            type: 'bar',
+            stack: 'modalities_uk',
+            data: [11], // Percentage data for Modality 4 (UK)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 2,
+            yAxisIndex: 2
+        },
+        {
+            name: 'MRI',
+            type: 'bar',
+            stack: 'modalities_uk',
+            data: [16.8], // Percentage data for Modality 5 (UK)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 2,
+            yAxisIndex: 2
+        },
+        // China
+        {
+            name: 'EEG',
+            type: 'bar',
+            stack: 'modalities_china',
+            data: [2.1], // Percentage data for Modality 1 (China)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 3,
+            yAxisIndex: 3
+        },
+        {
+            name: 'Genomics',
+            type: 'bar',
+            stack: 'modalities_china',
+            data: [2.5], // Percentage data for Modality 2 (China)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 3,
+            yAxisIndex: 3
+        },
+        {
+            name: 'fMRI',
+            type: 'bar',
+            stack: 'modalities_china',
+            data: [2.9], // Percentage data for Modality 3 (China)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 3,
+            yAxisIndex: 3
+        },
+        {
+            name: 'CT scans',
+            type: 'bar',
+            stack: 'modalities_china',
+            data: [4.2], // Percentage data for Modality 4 (China)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 3,
+            yAxisIndex: 3
+        },
+        {
+            name: 'MRI',
+            type: 'bar',
+            stack: 'modalities_china',
+            data: [12.2], // Percentage data for Modality 5 (China)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 3,
+            yAxisIndex: 3
+        },
+        // United Kingdom
+        {
+            name: 'fMRI',
+            type: 'bar',
+            stack: 'modalities_germany',
+            data: [1.8], // Percentage data for Modality 1 (Germany)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 4,
+            yAxisIndex: 4
+        },
+        {
+            name: 'CT scans',
+            type: 'bar',
+            stack: 'modalities_germany',
+            data: [3.3], // Percentage data for Modality 2 (Germany)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 4,
+            yAxisIndex: 4
+        },
+        {
+            name: 'EEG',
+            type: 'bar',
+            stack: 'modalities_germany',
+            data: [4.1], // Percentage data for Modality 3 (Germany)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 4,
+            yAxisIndex: 4
+        },
+        {
+            name: 'Genomics',
+            type: 'bar',
+            stack: 'modalities_germany',
+            data: [5.9], // Percentage data for Modality 4 (Germany)
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 4,
+            yAxisIndex: 4
+        },
+        {
+            name: 'MRI',
+            type: 'bar',
+            stack: 'modalities_germany',
+            itemStyle: {
+                color: function(params) {
+                    console.log(params.seriesName);
+                    return modalityColors[params.seriesName]; // Assign different shades from the family
+                }
+            },
+            data: [8.9], // Percentage data for Modality 5 (Germany)
+            label: { show: true, position: 'inside', formatter: '{c}%' },
+            xAxisIndex: 4,
+            yAxisIndex: 4
+        },
+        
+        {
+                name: 'Countries',
+                type: 'bar',
+                data: [
+                    909,  // United States
+                    261,  // United Kingdom
+                    237,  // China
+                    209,  // Germany
+                    193,  // France
+                    148,  // Netherlands
+                    136,  // Australia
+                    124,  // Turkey
+                    114,  // Italy
+                    109   // Switzerland
+                ],
+                itemStyle:{
+                  color:'#05445e'
+                },
+                label: {
+                    show: true,
+                    position: 'top',
+                    rotate: 90,
+                    offset: [40, 5],
+                    formatter: function(params) {
+                        const totalValue = 909 + 261 + 237 + 209 + 193 + 148 + 136 + 124 + 114 + 109; // Total calculation
+                        const percentage = ((params.value / totalValue) * 100).toFixed(1);
+                        return `${params.value} (${percentage}%)`;
+                    }
+                },
+                xAxisIndex: 5,
+                yAxisIndex: 5
+            }
+    ],
+    xAxis: [
+        {
+            type: 'category',
+            data: ['Canada'],
+            gridIndex: 0,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'category',
+            data: ['USA'],
+            gridIndex: 1,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'category',
+            data: ['United Kingdom'],
+            gridIndex: 2,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'category',
+            data: ['China'],
+            gridIndex: 3,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'category',
+            data: ['Germany'],
+            gridIndex: 4,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+         {
+                type: 'category',
+                data: [
+                    "United States", 
+                    "United Kingdom", 
+                    "China", 
+                    "Germany", 
+                    "France", 
+                    "Netherlands", 
+                    "Australia", 
+                    "Turkey", 
+                    "Italy", 
+                    "Switzerland"
+                ],
+                gridIndex: 5,
+                axisLabel: {
+                    interval: 0,
+                    rotate: 45
+                }
+            }
+    ],
+    yAxis: [
+        {
+            type: 'value',
+            gridIndex: 0,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'value',
+            gridIndex: 1,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'value',
+            gridIndex: 2,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'value',
+            gridIndex: 3,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'value',
+            gridIndex: 4,
+            axisLine: { show: false },
+            axisLabel: { show: false },
+            splitLine: { show: false }
+        },
+        {
+            type: 'value',
+            gridIndex: 5,
+            axisLine: { show: false },
+            axisLabel: { 
+              show: false
+            },
+            splitLine: { show: false }
+           
+        }
+    ],
+    grid: [
+        {
+            left: '10%',
+            top: '8%',
+            width: '20%',
+            height: '15%'
+        },
+        {
+            left: '5.5%',
+            top: '33%',
+            width: '20%',
+            height: '15%'
+        },
+        { // germ
+            left: '39.5%',
+            top: '7%',
+            width: '20%',
+            height: '15%'
+        },
+        { // china
+            left: '79%',
+            top: '34%',
+            width: '20%',
+            height: '15%'
+        },
+        { // uk
+            left: '31%',
+            top: '29%',
+            width: '20%',
+            height: '15%'
+        },
+        {
+            left: '8%',
+            top: '60.5%',
+            width: '20%',
+            height: '15%'
+        }
+    ],
+    barWidth: '15%'
+};
+
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

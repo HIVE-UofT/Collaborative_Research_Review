@@ -1,0 +1,424 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=bar-negative&code=G4QwTgBA9gDgLgSygOwgXggbwFATxAGwFMBzI5AEwC4td96KQ4QaBtAcgBEoBbIgZ0QBjdgBoI7AJLI4RMMiZIFBMRIAqUZioC6oungC-e-iTAJqEVvvpZCRAGZwa7AIwAGAKSqzJABZOJdy9xOFhnABYADmCIACNNUJ5nACYAVi8IIwgAemyIAFkAJUkIU3Nrekw7Rwj07wQ_APY6kLCJKJj4uESUuszxXIgAYTUIAGUhEFQyigr8KuIaiQB2Fogff2dPVVCYCOjVLp6JNIyswfsikpm5vAWHJvCY3drOhN5nVL7zvJgEIggQl84DgpTMsxs82qTVS21aewkayOHwkADZljENk0XABmM4DPIEBDIAFAkFg8r0XTWACeAEEAB4IfhsW60SGQuA0mBEZyTWQkKBgGliNkMJgsSzsZJuFyRVTS2UATgVMplqrcyRcGuSyR1OIVPHMAFo1eF2NSOTYZtIKEQGTQ3ASIAAxIUFYpi_AgJn8NQIIQAaxoVX4vigAHcaPYQAR-ACjF68D7mQAZYm89lWmwoABacigNDgYAArkRjNn6GHI0XS-W8IMAKLIfglsACCBwXwAmnGlP8QgZiDMiAUZkwAggGlECGV_BEkljLnEENJjlCKAEIXOADEOIoqViqRVDbyYyIcAHXZ7fd9g5JgM37tC6xna8MFcriat345ODnnbcpm7D8qQQoip-2aMMwbCKnKGouCq4iKuqyFqtqaGanqmHJAayFGhQpqaualpzjalD2jQLjOm6kAjOMkzIGu1ZRp2daQVa_b-kGIYQCx0axvG_Rrv26YkquAF4HmBa1mWHHZvxbFyaeEDNq27ZXt2EC9v294AiOY78BOU5vpJelLjSK5ZmZeAbluYC7vuh7HuwKnnpenZaTpd4LqST6QC-7azgBv5fvJkKiSAsREAQvGKTGcYJuFwlWv-c5cjyfJMGBwqigB0GShwMrwZhiE6m4OoYScWH6oaJpmhayUmOCtqURAyQ0e6lyegBinFnJIm-txwa2PFglJYNaYZhJknSWAhZKeW758eGrH9fWOR5GpbYdte2m3iOvnDgOhnGdOwVzr5FlWWlNmPvZjkHkeJ6beMF6aTeulHXZz5QK-F1hWuoXZpF0WxaNq0CYlKUcsDlRrhlwGgAQZZ5WRLUUQ6EA4p1kB_KSwJgHAbJw_MCNAc4yOo01-DkXaWPhLjemAoTxO9ZDCXxjTeBGUScBiZmoaQxAnMTQBonTdZc5zQtovc_gfXsSp20aZ5n0-UOBnjpO53LVdy6C8t9A_Q5Eh7k9Llue9av7V9Q4m52f1BctpP0K7MN4KReAMoyzKsql5OZRIVNEGjlagzFM1mfYQo8Ewsim_YJbIEIiAoAAFDA4AgDw_AAJRS3dCD2BAmfZ7n6BoBgbgF-2cBtqg7BXOwADcRse9m7tVhOCD85LQs1iL40d1a8TJ4wwoAOIgAirBOoEbjbF7INDQGI0D6xosjxyEviYX0vIPm82yUtd365Zht3cb_m7ovFXy278td7TGP046TNXCTyW3dmiOU7G1NJr8FTFFSO-9KwxzAHHbochozJ1TkoMuYAc753AZJYupcs7IIrlXautcLwNwkPRfgjF-Ct3bs_D8zEe59z3hvKGQlKFxCgOPcANJp6z3nq4ReXhl6cVXjxCGg8t5MN3pfGyMsT4P3nBma64ir73W3GbO-YdJJMKYXTNq1FXq0WGKMCYUwv5sh_laP-wcAGh3lhHcGJi5yQOgQnOBKc07ICQSggutizIYLcTgquEAa6vnrvICQ3VJDkLuuo-WvNe4CzisLER8sx6UDYRwtgXD3BLysQI9eK1hHD1Eb6WJaCrSSMWtIvA58brt2vg9ZRi9VEhSfvLTRWMOo6K6p_H839A5IwsQ0jkLSaA43aXjf4LMQRAKKZ4hSwt1rlPMgbKOV8TbOFMEQCC1T8ARnMF2GgAA6VIFCgbJS7tM-gZiQLZUFLleWBU2DFUiOIYqSonmannuhV5upPnDPYARIiyQSLy0GAoPgzgACaRBwD9IioU_u7dBilLme3Sp8jlk3zNk5Z60LO5NKAcNOJeToYFLTKAmxy1BgrPYObZySFlrzWYLIGg4RUjiFeoUTQ2UPqEFJQOWINIIDMtHKQdsAhloxxkAAdSIA0TYEh4gEAoK5V6-QQCBl2lpScYNeWbgBrDZpr82qMxGczMkRMjFUkgvGMwAh_Z_jXCC4CnAJTYvORTCQ-MXX4GQWOEsLIpRBA1Lw1lgw6QUAAFa-tBN6hAvqRbun4HHAgxBIDbIoF2NcQhyCOKlLhGIrgDi6BUkMLNcgbYUBQCWUEpq2ZzhAMAKA5gQFgwAPLADkJOBEcs1yarAWcjkisBp3RgFAfgvclDOBYZecwlj27irgGMBAAAvTMLhUTzPsfHWBIt4EuJ8agvtlY66EKsAoyE7BMCZpkHIAAPq5AA1BALBKC9kOogA-9gBgAA6yBPVmXPUFW9b7H3l34HsnkYBL1wD2aEF0CAGQznTi4Au76PAGHYJsz2eyw0Ntcewdgec24RPmWYIESy7qQa3QeySsYGjID5CWsAqhXrFqvWAPsRISAthtq-2QDIa2nvwHOhdy6qKMwwzYFZGKLa0oE_QC4KA4BSplU0eVir5mP3E0FMjp7JNUtXcsCgyx7C_skkJpdK613ifoHOpTjRnCqZM-LDjdGJAUcY0Whj7HaNcvA5BkAZBOz2n41fAwRzGndtJVM9uA7T5ziYUQHgMBgSjr9VR-gPayUCZi-pwTCnhPAVXY5jkNnpV2blTq9DETjlrjuZYduVQQ40CVMsZY4gHXOG4HwQQAZVC9wS3I3iumdwUHsEQVdIBXIGG3pWBrFiqLLDcGuiA7WJDSATgoFxsZeuyB4AN2wQ3IguFiC4cIxnMiZDXHwjkPtfStSxsMpsLYdrDlBLEYkFArx_T2huMA7ZU4QBu8yNc9JbuYyGc6FW-lXvvc-zbH7f3QQg6B10tkxjxMrfYBoLQRXORuvYL5HHNhausEQiy9qywXkCpxNo1I4Q2mpGWEa8IconnhHCFdsyCaoCaF8FI8T_AaQ8HlXyBAEHiBMcGAABRw6CAMKA42QCtf8AcLh-eC_lflmgjzxN9d24s4pNkhv6cM2d16Yx1ebkUZASBfE5DK4gKrgTTCrQou0woo36ITeqEGGMHkQhi78pAFbhXEAsexis1snZvPsbiedxyQY4BIV7bS_HvINSlHsDACQWIIB05pDJy4Y84h55uD2ckPOrkQ3hsjRARPQeTbicGHHyEgP-B3aZRDp77YXtxBh47OHQoEcA99vwcTSO29g4FZ39SUPe-UFh99wfRB_vj4od0gCGPOsCGECZi5BPbkSjYOicQ7hKeruGYhI1WptEne0UqZIHObBc553z3qFvwaZ-X3ACXeRpfEllxuKgDbkrh2MkMxO_prhANrgBLrsnu3ENiNmNqiBNm5O_sHsAXbh2I7nFvLK7gbpCAgaNuNt7nkFvt1kIFbu3KmrsjHuFgBAnu2CAHAfQWnvgLplnjnnngXrTifpECXmXhXq9GQcILXowZQSwdNjYK3u3lPq9JDj3m9vPv3ovr9l_sPr6MDiPjIUao9jPgoX3i-CoUPqvijgHBvjnMBGtnIBtkoFtvLHvhmCZsTi4MkI8g7gtk8qiG4TiFEOIDiKiMMskC1ifqkA_lEjwNzjQUim_kLpuM4GODnCgGpipH_jIMOIASHiAQODiOAbEQQJAe4PLLAfrinrZOilSodsdqdkqj7mgQ7BgdairtVgBHgaUVbruJUSdsZs6FYfIIoCgLGOITZNQdHjkXQXOAwUniUWuIMOnqbJntnrnkal4eIEqEaqXuXpXnkL0TYQMQQKIZCkMZWE3vLNIZPjoVtF3rPooR9soVpPDmoa3poaDm_LIboc9r3HPrcYYfcUviviPkYmyIMFcHEOAKPmYXOJvrwNvj1vYXjjnoxlEswIIk3MUCZhlgSpvONOIMOqOi4s4MSKOnaKmA8JNgfjBJYMaIXuIFSa1hAKaG0qaEtqaNolScMsaEqI_vQMURfINuUcNkQcgWSWuGca8U6M8cyDIeKaYXauYaCqtqxrscoLvvCVCkiSACic3LgaSpiQwvWLiWOigASS2NOoUMpsKflIfpYGkOIOEPPDiMMr4VTrafPCdlyfgDyTdO0WbJ0dUZIfQKKW1NKXOOPlKScslIMPRAYqgAieCbKZCRYR1tCeQSqUHOwAiSZoIBqSNOwCMOiTqUIliYlDiSOoaS5uwISdOiSY4BaXOMTsaOyWTlSU2S4KyW4VSYycsO6XgJ6YLN6VSogcQf6fgIGVjNRBKRPq8eOTKZCFRhjjsf0cqXCWmRmeqSiXmdqWDLqUPMWY-qWfiRIJWXaGaY0LWZWMTm4S4U8gXktohE8nSZyUUTtsnv2TuL6WdkwqOVRPLKGZPtOXqkCXkKEqCWAHGbOfaomRIMIbCT0vZmqcxMiTmaEvmVuYWXqSWXieOoeSacSaScOXgPWUaqaDSXSQ2TScyakN2S9v1iUa-YOUKfheoZKZPh1BOTIaxTOTYHOZBVIIqYuXYbBXKvBb1Ihc4MhZub2rkkWVzHuZhUadhUSUQCef4GeVBFaSThfjftwSfrea6VRb2XybUhUUdl0apVaF-e1D-VoSxeGdYMvAiRKlHp8GsFXhGoIDbCMdACXHtLGbXgOCSDOKZPgGyKYDPL4AGLauBQBBcrxt_rgQ8CkMkDEFLvuUoHEDFJGDbCCdWgjG0OwHaTEK9KGm5aCF2COCHP3oAcWJbm2kTAGIMQaS4ghbyfgTYLFc4CABXs6E2jFBAAAEQgB9WzoKb2Y6oO6ogwAMgQB0hmACV3T2AIBJqOQOlbHDD-ReU2wZZAzmrxmVgxVBbokJVogYgkEQDS5yUxkZURg2zAU5XRV5UFU_7TXV7uVlUDgVUvhVXzT7G1XCANWpUoDNVVJ3TtVypdWvQ9X7F9VCBDXzUjXlYKrjWTXTWzUqDrqLUf57grXMbrVQDeUaqkrbWcXwzRV46xWHVLD5UuW_4A2XVbjXV7RRmMTjJmr3UIjsCRBJVPXFU15vUQAfV_RfU1VyB_X7GNVKBA2orRVBZ8jg2DCQ39WxCw02RzqjWI2rrI0zUIBzUq0Y3LUGg432QbV7RbUhQ7WezYAGAtxAA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    var option = {
+    legend: {
+        data: ['Domestic', 'International', 'Total'],
+    },
+    grid: [
+        { left: '10%', right: '10%', top: '48%', bottom: '25%' }, // MRI grid
+        { left: '45%', right: '5%', top: '48%', bottom: '25%' }, // CT Scan grid
+        { left: '75%', right: '0%', top: '48%', bottom: '25%' }, // fMRI grid
+        { left: '4%', top: '45%', bottom: '55%' }, // pie chart grid
+        { left: '50%', top: '5%', bottom: '67%', right: '13%' }, // line chart grid
+    ],
+    yAxis: [
+        {
+            type: 'category',
+            data: ['2018', '2019', '2020', '2021', '2022', '2023', 'mid-2024'],
+            gridIndex: 0, // For MRI
+            axisTick: { show: false },
+            axisLine: {
+              onZero: true,
+              show: true,  // Ensures the y-axis line is displayed
+              lineStyle: {
+                  color: '#3d5b59'  // Sets the y-axis line color to red
+              },
+            },
+        },
+        {
+            type: 'category',
+            data: ['2018', '2019', '2020', '2021', '2022', '2023', 'mid-2024'],
+            gridIndex: 1, // For CT Scan
+            show: true,
+            axisTick: { show: false },
+            axisLine: {
+              onZero: true,
+              show: true,  // Ensures the y-axis line is displayed
+              lineStyle: {
+                  color: '#3d5b59'  // Sets the y-axis line color to red
+              },
+            },
+            axisLabel: { show: false },
+        },
+        {
+            type: 'category',
+            data: ['2018', '2019', '2020', '2021', '2022', '2023', 'mid-2024'],
+            gridIndex: 2, // For fMRI
+            show: true,
+            axisTick: { show: false },
+            axisLine: {
+              onZero: true,
+              show: true,  // Ensures the y-axis line is displayed
+              lineStyle: {
+                  color: '#3d5b59'  // Sets the y-axis line color to red
+              },
+            },
+            axisLabel: { show: false },
+        },
+        {
+            type: 'value',
+            gridIndex: 3, // For pie chart
+        },
+        {
+            type: 'value',
+            gridIndex: 4, // For line chart
+            show:false,
+            splitLine: { show: false },
+            axisLine: {
+              onZero: false,
+              show: true,  // Ensures the y-axis line is displayed
+              lineStyle: {
+                  color: '#3d5b59'  // Sets the y-axis line color to red
+              },
+          },
+        },
+    ],
+    xAxis: [
+        {
+            type: 'value',
+            axisLabel: {
+                formatter: function(params) {
+                    if (params === 0) return 'MRI';
+                },
+            },
+            splitLine: { show: false },
+            boundaryGap: [0, '100%'],
+            axisTick: { show: false },
+            axisLine: {
+                onZero: true,
+                lineStyle: {
+                    color: '#000',
+                },
+            },
+            gridIndex: 0, // For MRI
+        },
+        {
+            type: 'value',
+            axisLabel: {
+                formatter: function(params) {
+                    if (params === 0) return 'CT scans';
+                },
+            },
+            splitLine: { show: false },
+            boundaryGap: [0, '100%'],
+            axisTick: { show: false },
+            axisLine: {
+                onZero: true,
+                lineStyle: {
+                    color: '#000',
+                },
+            },
+            gridIndex: 1, // For CT Scan
+        },
+        {
+            type: 'value',
+            axisLabel: {
+                formatter: function(params) {
+                    if (params === 0) return 'fMRI';
+                },
+            },
+            splitLine: { show: false },
+            boundaryGap: [0, '100%'],
+            axisTick: { show: false },
+            axisLine: {
+                onZero: true,
+                lineStyle: {
+                    color: '#000',
+                },
+            },
+            gridIndex: 2, // For fMRI
+        },
+        {
+            type: 'value',
+            gridIndex: 3, // For pie chart
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: 'grey',
+                    width: .5
+                }
+            },
+        },
+         {
+            type: 'category',
+            data: [2018, 2019, 2020, 2021, 2022, 2023, 'mid-2024'],
+            // name: 'Year',
+            axisLine: {
+                // onZero: true,
+                lineStyle: {
+                    color: '#3d5b59',
+                },
+            },
+            axisTick: { show: false },
+            axisLabel: {
+              // color:'#3d5b59',
+              rotate: 45,  // Rotates the labels by 45 degrees
+              fontWeight: 'bold'  // Makes the labels bold
+            },
+            gridIndex: 4, // For line chart
+        },
+    ],
+    series: [
+        {
+            name: 'Data',
+            type: 'pie',
+            radius: ['10%', '20%'],  // Adjust radius for smaller width
+            center: ['23%', '18%'],  // Center the donut chart
+            avoidLabelOverlap: false,
+            label: {
+                show: true,
+                position: 'outside',
+                fontSize: 16,
+                formatter: function(params) {
+                    return [
+                        '{center|' + params.name + '}\n',
+                        '{red|' + params.percent.toFixed(1) + '%}'
+                    ].join('');
+                },
+                rich: {
+                    center: {
+                        align: 'center',  // Center-aligns the name text
+                        fontSize: 14,
+                        color: '#3d5b59',
+                        // fontWeight: 'bold',
+                    },
+                    red: {
+                        color: '#167d7f',
+                        fontSize: 16,
+                        fontWeight: 'bold',
+                        align: 'center'  // Center-aligns the percentage text
+                    }
+                }
+            },
+            labelLine: {
+                show: true,
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    fontSize: '16',
+                    fontWeight: 'bold'
+                }
+            },
+            data: [
+                { value: 977, name: 'Domestic', itemStyle: { color: '#dfe16a' } },
+                { value: 1706, name: 'International', itemStyle: { color: '#81b14f' } }
+            ],
+            xAxisIndex: 3, // Ensure it binds to the correct xAxis
+            yAxisIndex: 3, // Ensure it binds to the correct yAxis
+        },
+        
+        {
+                    name: 'Total',
+                    type: 'line',
+                    data: [195, 279, 431, 542, 574, 418, 244],
+                    smooth: true,
+                    symbol: 'circle',  // Point icon for series 1
+                    symbolSize: 8,
+                    itemStyle: {
+                        color: '#167d7f'  // Symbol color for series 1
+                    },
+                    lineStyle: {
+                        color: '#167d7f', // Specify a color for Total
+                        width: 3
+                    },
+                    // areaStyle: {
+                    //     color: 'rgba(255, 159, 0, 0.2)' // Adjust area color
+                    // },
+                    xAxisIndex: 4, // Ensure it binds to the correct xAxis
+                    yAxisIndex: 4, // Ensure it binds to the correct yAxis
+                },
+        {
+            name: 'Domestic',
+            type: 'line',
+            data: [67, 109, 163, 194, 211, 141, 92],
+            smooth: true,
+            symbol: 'rect',  // Point icon for series 2
+            symbolSize: 8,
+            itemStyle: {
+                color: '#dfe16a'  // Symbol color for series 1
+            },
+            lineStyle: {
+                color: '#dfe16a', // Domestic color
+                width: 3
+            },
+            // areaStyle: {
+            //     color: 'rgba(25, 154, 180, 0.2)' // Domestic area color
+            // },
+            xAxisIndex: 4, // Ensure it binds to the correct xAxis
+            yAxisIndex: 4, // Ensure it binds to the correct yAxis
+        },
+        {
+            name: 'International',
+            type: 'line',
+            data: [128, 170, 268, 348, 363, 277, 152],
+            smooth: true,
+            symbol: 'diamond',  // Point icon for series 3
+            symbolSize: 10,
+            itemStyle: {
+                color: '#81b14f'  // Symbol color for series 1
+            },
+            lineStyle: {
+                color: '#81b14f', // International color
+                width: 3
+            },
+            // areaStyle: {
+            //     color: 'rgba(4, 68, 94, 0.2)' // International area color
+            // },
+            xAxisIndex: 4, // Ensure it binds to the correct xAxis
+            yAxisIndex: 4, // Ensure it binds to the correct yAxis
+        },
+
+        // MRI bars
+        {
+            name: 'Domestic',
+            type: 'bar',
+            stack: 'MRI',
+            label: { show: false, position: 'insideLeft' },
+            data: [-15, -17, -22, -26, -21, -13, -9],
+            itemStyle: { color: '#dfe16a' },
+            xAxisIndex: 0,
+            yAxisIndex: 0,
+        },
+        {
+            name: 'International',
+            type: 'bar',
+            stack: 'MRI',
+            label: { show: false, position: 'insideRight' },
+            data: [25, 40, 33, 48, 43, 40, 14],
+            itemStyle: { color: '#81b14f' },
+            xAxisIndex: 0,
+            yAxisIndex: 0,
+        },
+        // CT Scan bars
+        {
+            name: 'Domestic',
+            type: 'bar',
+            stack: 'CT',
+            label: { show: false, position: 'insideLeft' },
+            data: [-3, -5, -15, -11, -8, -12, -7],
+            itemStyle: { color: '#dfe16a' },
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+        },
+        {
+            name: 'International',
+            type: 'bar',
+            stack: 'CT',
+            label: { show: false, position: 'insideRight' },
+            data: [8, 12, 25, 16, 19, 27, 9],
+            itemStyle: { color: '#81b14f' },
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+        },
+        // fMRI bars
+        {
+            name: 'Domestic',
+            type: 'bar',
+            stack: 'fMRI',
+            label: { show: false, position: 'insideLeft' },
+            data: [-4, -2, -7, -3, -6, -5],
+            itemStyle: { color: '#dfe16a' },
+            xAxisIndex: 2,
+            yAxisIndex: 2,
+        },
+        {
+            name: 'International',
+            type: 'bar',
+            stack: 'fMRI',
+            label: { show: false, position: 'insideRight' },
+            data: [13, 11, 15, 15, 16, 10, 1],
+            itemStyle: { color: '#81b14f' },
+            xAxisIndex: 2,
+            yAxisIndex: 2,
+        },
+    ],
+    barWidth: '55%', // Adjust the width of the bars as needed
+    
+        graphic: [
+        {
+            type: 'text',
+            left: '22%', // Position below the MRI chart
+            top: '40%',  // Adjust this value to control vertical position
+            style: {
+                text: 'a)', // Label "a"
+                font: 'bold 16px Arial',
+                fill: '#333' // Color of the label
+            }
+        },
+        {
+            type: 'text',
+            left: '67%', // Position below the fMRI chart
+            top: '40%',  // Adjust this value to control vertical position
+            style: {
+                text: 'b)', // Label "c"
+                font: 'bold 16px Arial',
+                fill: '#333' // Color of the label
+            }
+        },
+        {
+            type: 'text',
+            left: '45%', // Position below the CT Scan chart
+            top: '82%',  // Adjust this value to control vertical position
+            style: {
+                text: 'c)', // Label "b"
+                font: 'bold 16px Arial',
+                fill: '#333' // Color of the label
+            }
+        },
+    ]
+};
+
+
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

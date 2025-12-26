@@ -1,0 +1,60 @@
+Modality,Count
+text,38
+imag,31
+mri,13
+,10
+eeg,7
+clinic,6
+patholog,6
+genet,6
+null,6
+ct,5
+genom,5
+medic,5
+electron health record,5
+comput tomographi,4
+pet,4
+medic imag,4
+intracrani pressur,3
+function mri,3
+audio,3
+ultrasound,3
+fmri,3
+modal imag,3
+modal text,3
+radiolog,3
+video,3
+transcrani doppler,2
+cortic thick,2
+dna methyl,2
+icp,2
+ecg,2
+modal demograph,2
+blood,2
+radiograph,2
+laboratori data,2
+brain imag,2
+transcriptom,2
+echocardiographi,2
+cardiovascular,2
+behavior,2
+modality1 null,2
+modality2 null,2
+age,2
+neuroimag,2
+neurolog,2
+mass spectrometri,2
+emot,2
+machin learn,2
+sociodemograph,2
+psycholog,2
+health,2
+
+
+
+MRI,24
+Genomics,16
+EEG,11
+CT scans,9
+fMRI,5
+Ultrasound,3

@@ -1,0 +1,58 @@
+Modality,Count
+mri,29
+imag,25
+text,16
+medic imag,11
+clinic,8
+comput tomographi,6
+ct,6
+fmri,6
+genom,6
+ultrasound,5
+machin learn,5
+eeg,5
+age,5
+medic record,4
+mirna,3
+dna methyl,3
+biochem,3
+mr imag,3
+echocardiographi,3
+function mri,3
+ecg,3
+modal imag,3
+cognit,3
+sex,3
+ultrasound imag,3
+,3
+function connect,3
+ncct,2
+proteom,2
+t1weight,2
+t2weight,2
+pet,2
+video,2
+cardiovascular magnet reson cmr imag,2
+ct scan,2
+magnet reson imag,2
+rna,2
+puls,2
+vital sign,2
+diastol blood pressur,2
+visual,2
+height,2
+gender,2
+weight,2
+demograph,2
+comput scienc,2
+electron health record,2
+gene express,2
+methyl,2
+electrocardiogram,2
+
+
+MRI,29
+CT scans,10
+fMRI,7
+Genomics,6
+EEG,5

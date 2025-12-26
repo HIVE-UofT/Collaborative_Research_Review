@@ -1,0 +1,6 @@
+<root>
+    <item>
+        <title>Title with special characters: &oslash;</title>
+        <link>HTTP://example.com/?&param=value&amp;other=val</link>
+    </item>
+</root>

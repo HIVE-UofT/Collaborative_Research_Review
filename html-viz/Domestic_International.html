@@ -1,0 +1,155 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=bar-polar-stack-radial&code=PYBwLglsB2AEC8sDeAoW7aTAGwKYC5k0MSxcAPMQgcgBVgwBDbagGnQHoPYBZRiOFjzES6AM4BXAEZlKNAAqNIuaGAC0AGVwA3XNlgBhYNmyMpwAE5Ko0Np24BlaUNwjReAGZVY1AMYqyCzY3UlAaABYABgBSYNEMWTAHMABPPEJUePiPGCSIAC8CWAAmcNYQrJzVAHVcCABzAAtvanNsABM4rJJmBugaf1VcIPLukl9jSxoAYki56ntDSYtYHJWwRtxYAFt-QQgcV26AX1GsyRkKJNT0ojGMKrzCwgBGMor43vr-n0HA6g-sFOgIsEF8jQygNCTGwkPu8Qm2CmPgsuE6Z3hD1yDgKRQAzAA2DGY1a5WoNZo0NroqFZL4_PwBYYAzHHQFskjAkj1KwgRpguFZPS4bYBMSEADatPQmRJ6FSICK1ESXTlnhaf2ZxMxYDCPgArDE7LAuLB5MAxAcbLADrAJNB2sNMJsdntMAdhHLxDcirKvQkrjRigSABx442mgAiEDEIFMKUwDGYNrgqPa0rGHggJhmADEQwAhAvzbVex4456wQmluWPclNFrU1X-2D0gZMoIZzkZjlZAC6bi5CWAxkgIEF8TAoPq9WGNAOIubJDWuzAgRoSEYx1gAB4pBYOAA-JBSY4ZXzbgAUSHax2iAEoFibHI1gAB3WCKix_FOJ0cQEBB2JMRhggXBxVgKVuj9MZoEYUUaEjJRGCXLIFSVEAwNQ-IrHaCAJAgiVqDxI12GoQ1Yj7dhn1gABBdoACsCLAWBcPwsRSRWMRdhMJ03wgdoNgzTULElcjSINI0qMWAwO2dLZ2hgCQWPBRgLDADNGG0YABI0Mw9AAeV0CxTHHVZmBAmtRFNUwpD0CcxlNEgxFfN9CCnCRcCskgnIwEALStGAaGAZTLUdCNuHNS1IBgWBbL0DiQrAMKtg2LZMK2VT1IzXz0BXJR1x8E8z2QW9Ymo00HFc2A4NFVsHU_YY_hy7hl2xXEaBeAlsOs7gh3ueLYTuL0XPfdyLE87ysn86KbGC0KBNwCKzQCmK4EGxKFsdeTPzA2Aso0_1yw62Auoq7gAEloF8VFGBA9pSVUWBLUKTi4v07AxC7LELFXQqPHtXw1svEA1PgsR72GltWNwMAJAsOAoOh0RQasbYxAAOlqrYAGofBoKa5WoJA0wAHwWPHUfBjGvz-DHdVzCByDRS8XkhvHqGiY4n1NAAlNF9uWN7aYCRhZ2--I-wxhidOgS9qGoe8AG4JaBQnRFBcEHP9NNteRxFkWoaZ8yLEtVe6Y7KzO83KjJOoGypYxOht9BezlN2xn6sZBo0ARfVV0a3MwCavMWKr3ziv2OKuFQ8OgepVgsYBtme7AwXA1W8HjjZCGKSJztgX3oC2LP6g2WA7LWEuPszlQy8aYpCBIxYi5Luvy8YLwnTSwWEeGHt1ZFPk7pjPWBo-seSUD8bJpdx6niVLqesxOt7cpHwm1Vj2TnV9pkMlVWkFgbRmE8wgAE4AHZL_YbHEOT8DIF8OwF22ZI0l9QWkVEnxpheENz60QLOEBY25TgyWYsnL-lg3qRgfmIJ-h9j6nyKC8S-kQiQ1XgkqK6gQ4JrWYC_Mgb8fQZGgT_I2kRwjUP1AAUVAUCCBCCoEGxWGsWAuDhj4JsMwDMA4ThuAHMcFWKAowxjMHgHaeBZwOhQKANaGNpGxwQFDZ6rlCAeAsq4YRQA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-graph-modularity@2/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    
+option = {
+    title: {
+        text: 'Total',  // Main title
+        subtext: 'Patient-Level Collaboration',  // Subtitle
+        left: 'center',
+        top: '40%',
+        textStyle: {
+            fontSize: 24,
+            fontWeight: 'bold',
+            align: 'center',
+            color: '#000'  // Color for the main title
+        },
+        subtextStyle: {
+            fontSize: 14,
+            align: 'center'
+        },
+        rich: {
+            total: {
+                color: 'red',
+                fontSize: 36,
+                fontWeight: 'bold',
+                align: 'center'
+            }
+        }
+    },
+    graphic: {
+        elements: [
+            {
+                type: 'text',
+                left: 'center',
+                top: '50%',  // Position it under the main title
+                style: {
+                    text: '2683',  // Display total in red
+                    fill: '#F8BB00',
+                    fontSize: 36,
+                    fontWeight: 'bold',
+                    align: 'center'
+                }
+            }
+        ]
+    },
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b}: {c} ({d}%)'  // Show percent in tooltip
+    },
+    series: [
+        {
+            name: 'Data',
+            type: 'pie',
+            radius: ['30%', '50%'],  // Adjust radius for smaller width
+            center: ['50%', '50%'],  // Center the donut chart
+            avoidLabelOverlap: false,
+            // label: {
+            //     show: true,
+            //     position: 'outside',  // Position labels outside the pie chart
+            //     formatter: '{b}: {d}%',  // Show name and percent
+            //     fontSize: '16',
+            // },
+            label: {
+                show: true,
+                position: 'outside',  // Position labels outside the pie chart
+                fontSize: 16,  // Increased font size for labels
+                formatter: function(params) {
+                    return [
+                        params.name + ': ',
+                        '{red|' + params.percent.toFixed(1) + '%}'  // Red color for percentage
+                    ].join('');
+                },
+                rich: {
+                    red: {
+                        color: '#F8BB00',
+                        fontSize: 16,
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                show: true,  // Show lines extending from slices
+                length: 20,  // Line length before label
+                length2: 30  // Line length after the corner
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    fontSize: '16',
+                    fontWeight: 'bold'
+                }
+            },
+            data: [
+                { value: 977, name: 'Domestic', itemStyle: { color: '#189AB4' } },  // Custom color for Domestic
+                { value: 1706, name: 'International', itemStyle: { color: '#04445E' } }  // Custom color for International
+            ]
+        }
+    ]
+};
+
+// Disable the legend
+option.legend = {
+    show: false
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

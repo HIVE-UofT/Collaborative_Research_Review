@@ -1,0 +1,161 @@
+pid,normalized_diseases,ICD_Code,data_modalities
+31800431,[],[],"['virtual reality', 'simulation']"
+33753312,['depression'],['F32'],"['Clinical Data', 'Psychological Data', 'Environmental Data', 'neurobiological data']"
+30872323,['transplant glomerulopathy'],['Unknown'],"['Clinical Data', 'functional data', 'immunologic data', 'histologic data']"
+36469776,['cancer'],['C00'],['plasma glycosaminoglycan profiles']
+37428478,['critical illness'],['Z99'],['EHR']
+37829182,['type 2 diabetes mellitus'],['Unknown'],"['administrative claims', 'EHR']"
+37012019,['acute aortic dissection'],['Unknown'],"['Clinical Data', 'laboratory data', 'imaging data']"
+33233605,"[""alzheimer's""]",['G30'],"['social interaction, robot interventions']"
+38133915,"['kidney disease', 'kidney transplantation']","['N18', 'Unknown']","['transplant data', 'Clinical Data', 'molecular-genetic matching', 'human leukocyte antigen (hla)', 'donor-specific antibodies (dsa)', 'creatinine', 'proteinuria']"
+31150083,['in-hospital cardiac arrest'],['Unknown'],[]
+38195644,['lung cancer'],['C34'],['ct imaging']
+37397861,['cancer'],['C00'],['radiographic images']
+35990802,['covid-19'],['Unknown'],['questionnaire data']
+31622838,['heart attack'],['I21'],['cine mr']
+33772335,['cervical cancer'],['Unknown'],['pet images']
+31981624,"['asthma', 'immune response disorders']","['Unknown', 'Unknown']","['Genomic Data', 'imputed hla alleles']"
+34710675,['cervical cancer'],['Unknown'],['pet images']
+38212387,['asthma'],['Unknown'],[]
+38186562,['kidney disease'],['N18'],[]
+32673230,[],[],['text data']
+38777894,"['colorectal cancer', 'diverticular disease', 'inflammatory bowel disease']","['Unknown', 'Unknown', 'Unknown']","['preoperative data', 'demographic data', 'Clinical Data']"
+35322668,['heart attack'],['I21'],"['electronic health records (ehr)', 'clinical notes', 'administrative data']"
+38234807,['progressive supranuclear palsy'],['Unknown'],[]
+33033241,['obsessive-compulsive disorder'],['Unknown'],['structural mri']
+35426912,"['hemorrhagic shock', 'septic shock', 'cancer', 'skin cancer', ""parkinson's""]","['Unknown', 'Unknown', 'C00', 'Unknown', 'G20']","['EHR', 'population brain imaging', 'health survey', 'intensive care surveys']"
+32767763,"['epilepsy', 'neurodevelopmental disorders']","['Unknown', 'Unknown']","['eeg', 'magnetic resonance imaging', 'genomic data', 'Clinical Data']"
+38598191,"['frailty', 'postoperative complications']","['Unknown', 'Unknown']","['ct imaging', 'EHR']"
+36995714,[],[],['survey data']
+38858500,['steatosis'],['Unknown'],['Ultrasound']
+38651539,['oral cancer'],['Unknown'],['EHR']
+30807586,['juvenile idiopathic arthritis'],['Unknown'],"['Clinical Data', 'joint involvement data']"
+30461117,[],[],"['Psychological Data', 'personality clusters']"
+38290583,"['depression', 'mental illness']","['F32', 'Unknown']","['structural neuroimaging', 'magnetic resonance imaging']"
+32719123,['relationship quality'],['Unknown'],"['Survey Data', 'longitudinal data']"
+37564037,['leprosy'],['Unknown'],"['Clinical Data', 'demographic data', 'Genomic Data']"
+38621801,"['kidney disease', 'cardiovascular disease']","['N18', 'Unknown']","['longitudinal cohort study', 'population-based data']"
+38161988,['pertussis'],['Unknown'],['EHR']
+36470898,['glioblastoma'],['Unknown'],['magnetic resonance imaging']
+30523141,['medulloblastoma'],['Unknown'],"['mr imaging', 't1-weighted images', 't2-weighted images']"
+38082372,"[""alzheimer's""]",['G30'],['frailty factors']
+38316811,[],[],[]
+38149177,"['narcolepsy', 'narcolepsy', 'hypersomnolence']","['G47.4', 'G47.4', 'Unknown']","['sleep disorder diagnostic data', 'narcolepsy symptoms', 'epworth sleepiness scale', 'cataplexy', 'sleep paralysis']"
+38193866,['colorectal cancer'],['Unknown'],[]
+38772191,['interstitial lung disease'],['Unknown'],['computed tomography']
+29581092,"[""parkinson's""]",['G20'],"['typing data', 'keystroke metrics']"
+37422576,['lung cancer'],['C34'],"['Other Imaging', 'Clinical Data']"
+32304875,['heart failure'],['Unknown'],"['EHR', 'icd codes', 'discharge summaries']"
+36538363,['delirium'],['Unknown'],"['EHR', 'laboratory tests', 'medical image reports']"
+37543994,['covid-19'],['Unknown'],['EHR']
+37574164,['community-acquired pneumonia'],['Unknown'],[]
+33962603,"['respiratory disorders', 'chronic obstructive pulmonary disease', 'asthma', 'interstitial lung disorders', 'ards', 'pneumonia']","['Unknown', 'J44', 'Unknown', 'Unknown', 'Unknown', 'Unknown']","['ventilation parameters', 'serum creatinine', 'serum bilirubin', 'ph', 'paco2']"
+34228341,['heart disease'],['Unknown'],"['spect imaging', 'clinical variables']"
+32174330,['heart failure'],['Unknown'],['cardiac imaging']
+38066031,['cervical cancer'],['Unknown'],['digital images']
+36394938,[],[],"['survey', 'Survey Data']"
+36652661,['lung cancer'],['C34'],"['ct scans', 'radiation dose plans']"
+37900603,['traumatic spinal cord injury'],['Unknown'],"['Clinical Data', 'baseline injury characteristics']"
+32943286,"['lung transplant rejection', 'graft loss']","['Unknown', 'Unknown']","['transbronchial biopsies', 'mucosal biopsies', 'gene expression microarrays']"
+35138012,"[""alzheimer's"", 'mild cognitive impairment']","['G30', 'Unknown']",['magnetic resonance imaging']
+30025851,['pharmaco-resistant focal epilepsies'],['Unknown'],"['intracranial electroencephalography (ieeg)', 'cortico-cortical evoked potentials']"
+31728792,['intrahepatic cholangiocarcinoma'],['Unknown'],"['Other Imaging', 'Clinical Data']"
+37555513,['chronic obstructive pulmonary disease (copd)'],['Unknown'],['electronic medical record data']
+38355486,"['acute kidney injury', 'hyperkalemia', 'hypoglycemia', 'hyponatremia', 'anemia', 'neutropenia', 'thrombocytopenia']","['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']",[]
+33074746,['autism'],['F84'],['functional mri']
+32165206,"['malignant pleural mesothelioma', 'transitional mesothelioma']","['Unknown', 'Unknown']","['digital pathology', 'histopathologic slides', 'rna sequencing']"
+29886760,"['respiratory distress syndrome', 'intracranial hemorrhage', 'necrotizing enterocolitis', 'sepsis', 'bronchopulmonary dysplasia']","['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']",[]
+37999728,[],[],[]
+31417602,[],[],[]
+38951965,['femoral neck fractures'],['Unknown'],[]
+38807510,['kidney disease'],['N18'],[]
+38156913,"['critically ill', 'mechanical ventilation']","['Unknown', 'Unknown']","['nutritional practice survey', 'clinical outcomes', 'mortality']"
+38902526,"['prostate cancer', 'prostate cancer']","['Unknown', 'Unknown']","['blood-based biomarkers', 'clinical biomarker data']"
+30947300,['degenerative cervical myelopathy'],['Unknown'],"['clinical variables', 'imaging features']"
+30773443,['lung transplant rejection'],['Unknown'],"['biopsy', 'transcriptomics']"
+38108259,['obstructive coronary artery disease (cad)'],['Unknown'],"['coronary calcium score (cac)', 'age', 'sex', 'chest pain', 'computed tomography angiography (ccta)']"
+37568646,['lung cancer'],['C34'],"['computed tomography', 'radiomics']"
+37021933,['cancer'],['C00'],"['Genomic Data', 'drug signatures']"
+37358938,['brain metastasis'],['Unknown'],['magnetic resonance imaging']
+37789357,['acute care assessment'],['Unknown'],"['presenting complaint', 'clinical modifiers', 'age', 'sex', 'self-reported pain']"
+37964440,['obstructive sleep apnea'],['Unknown'],"['payer-sourced medical claims', 'objective pap usage data']"
+34864143,['chronic obstructive pulmonary disease'],['J44'],"['Other Imaging', 'Clinical Data']"
+37872467,['heart disease'],['Unknown'],['echocardiographic images']
+38200511,['non-small cell lung cancer (nsclc)'],['Unknown'],['ct scans']
+37573646,['amyotrophic lateral sclerosis'],['Unknown'],['magnetic resonance imaging']
+37546399,['lung cancer'],['C34'],"['ct scan', 'radiomics']"
+31352417,"['cardiovascular disease', 'cancer']","['Unknown', 'C00']",['ct scans']
+38469689,['heart disease'],['Unknown'],"['ct angiography', 'ffrct']"
+38706783,['venous thromboembolism'],['Unknown'],[]
+32161279,['cancer'],['C00'],['radiomics']
+36867224,"['depression', 'anxiety', 'suicidal tendencies']","['F32', 'Unknown', 'Unknown']",['online questionnaire']
+38370787,"['type 2 diabetes mellitus', 'cardiovascular disease']","['Unknown', 'Unknown']","['EHR', 'administrative claims']"
+38441539,"['psychosis', 'schizophrenia', 'mental disorders']","['Unknown', 'Unknown', 'Unknown']","['Genomic Data', 'Survey Data', 'parent-reported measures', 'cognitive assessments']"
+35006495,"['disease on chest radiographs (cxr)', 'thoracic disease']","['Unknown', 'Unknown']","['chest x-rays (cxr)', 'frontal images (ap/pa)']"
+38893608,['lung sliding artifact'],['Unknown'],['ultrasound']
+38456877,"['heart disease', 'cardiovascular disease']","['Unknown', 'Unknown']","['ct attenuation imaging', 'Other Imaging']"
+37741065,"['epilepsy', 'cognitive flexibility impairments']","['Unknown', 'Unknown']","['stereoelectroencephalography (seeg)', 'local-field potentials (lfps)']"
+37651262,['acute respiratory distress syndrome'],['Unknown'],"['Clinical Data', 'ventilatory and oxygenation descriptors', 'comorbidities', 'demographics']"
+38332374,"['psychosis', 'schizophrenia']","['Unknown', 'Unknown']",['structural mri']
+37839909,['depression'],['F32'],"['Clinical Data', 'demographic data']"
+38542033,['acute respiratory distress syndrome'],['Unknown'],"['EHR', 'physiological monitoring data']"
+34810001,['invasive pneumococcal disease'],['Unknown'],['Laboratory Data']
+29664902,"['adhd', 'autism']","['Unknown', 'F84']","['magnetic resonance imaging', 'functional mri']"
+37002267,"['stroke', 'aphasia']","['Unknown', 'Unknown']","['neuroimaging', 'Clinical Data']"
+38402362,['atrial fibrillation'],['Unknown'],[]
+36378672,"['heart failure', 'heart disease']","['Unknown', 'Unknown']","['orthogonal voltage gradient (ovg)', 'photoplethysmography (ppg)']"
+31393626,['epilepsy'],['Unknown'],"['neuroimaging', 'Clinical Data']"
+35225756,['bipolar disorder'],['Unknown'],"['Genomic Data', 'Clinical Data']"
+34773974,"['multiple sclerosis', 'psoriasis', 'axial spondyloarthritis', 'psoriatic arthritis', 'rheumatoid arthritis']","['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']","['clinical trial data', 'mri imaging', 'genomic data', 'proteomic data', 'transcriptomic data']"
+31845024,['lower gastrointestinal bleeding'],['Unknown'],['Clinical Data']
+38704793,['prostate cancer'],['Unknown'],['ultrasound']
+38639373,['peripheral artery disease'],['Unknown'],[]
+30171211,['bipolar disorders'],['Unknown'],['magnetic resonance imaging']
+35727872,['heart disease'],['Unknown'],['myocardial perfusion spect']
+38937550,"['general clinical predictions', 'in-hospital mortality', 'hypoglycemia', 'hyponatremia', 'hyperkalemia', 'thrombocytopenia', 'anemia']","['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']",[]
+37268414,['pulmonary emphysema'],['Unknown'],['ct scans']
+38664377,['schizophrenia'],['Unknown'],"['transcranial magnetic stimulation', 'neuroimaging', 'Clinical Data']"
+30795962,['heart transplant rejection'],['Unknown'],"['molecular diagnostics', 'Laboratory Data']"
+38604736,['pediatric low-grade neuroepithelial tumor'],['Unknown'],"['mr imaging', 'adc imaging']"
+30262516,['heart disease'],['Unknown'],['spect myocardial perfusion imaging']
+38387384,['asthma'],['Unknown'],['respiratory sounds']
+32816765,"['pediatric posterior fossa tumors', 'diffuse midline glioma', 'medulloblastoma', 'ependymoma', 'pilocytic astrocytoma']","['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']","['mr imaging', 't2-weighted mri']"
+38212349,['depression'],['F32'],"['cortical measures', 'subcortical measures']"
+36508223,['recurrence after arthroscopic bankart repair'],['Unknown'],"['demographics', 'patient-specific factors', 'disease-specific factors', 'surgical characteristics']"
+38384277,"[""parkinson's""]",['G20'],['3d medical images']
+38906883,['depression'],['F32'],"['clinical features', 'sociodemographic features']"
+38607809,['alcohol-associated hepatitis'],['Unknown'],"['Clinical Data', 'imaging data', 'Laboratory Data']"
+35379856,['covid-19'],['Unknown'],['chest x-rays']
+36921979,"['st elevation myocardial infarction', 'cancer']","['Unknown', 'C00']","['Clinical Data', 'administrative data']"
+38418987,"['covid-19', 'bacterial pneumonia', 'viral pneumonia']","['Unknown', 'Unknown', 'Unknown']","['X-ray', 'ct scan']"
+37410009,"['heart disease', 'atherosclerosis']","['Unknown', 'Unknown']",['coronary computed tomography angiography (cta)']
+37813086,"['embolic stroke of undetermined source', 'aortic arch atherosclerosis']","['Unknown', 'Unknown']",['computed tomography angiography']
+36183620,['joint dislocations'],['Unknown'],['radiographs']
+34829396,['lung conditions'],['Unknown'],['lung ultrasound']
+38605172,"['psychosis', 'schizophrenia']","['Unknown', 'Unknown']","['neuroimaging', 'Psychological Data', 'social cognition']"
+37516990,"['amyotrophic lateral sclerosis', 'frontotemporal dementia']","['Unknown', 'Unknown']",['speech']
+38021248,['obsessive-compulsive disorder'],['Unknown'],"['video teletherapy', 'digital messaging']"
+36332954,[],[],[]
+35967110,['kidney disease'],['N18'],"['Clinical Data', 'laboratory data']"
+34104876,['preterm birth'],['Unknown'],"['metabolomic markers', 'birth weight', 'sex']"
+29550305,['heart disease'],['Unknown'],['myocardial perfusion imaging (mpi)']
+34131749,['peripheral nerve sheath tumors'],['Unknown'],"['magnetic resonance imaging', 'computed tomography']"
+36135395,['dengue'],['Unknown'],"['Clinical Data', 'laboratory data']"
+38679324,['depression'],['F32'],['MRI']
+34863649,['heart failure'],['Unknown'],['echocardiography']
+36975097,['covid-19'],['Unknown'],"['blood samples', 'Clinical Data']"
+36545250,"['kidney disease', 'cardiovascular disease']","['N18', 'Unknown']","['egfr', 'albuminuria', 'demographics', 'comorbid conditions']"
+38326559,['obsessive-compulsive disorder'],['Unknown'],['diffusion tensor imaging']
+31055684,[],[],[]
+38174138,"['cardiometabolic disease', 'spinal cord injury or disease']","['Unknown', 'Unknown']",['Survey Data']
+38075554,['chronic spontaneous urticaria'],['Unknown'],['EHR']
+36442460,['cancer'],['C00'],"['Clinical Data', 'imaging data']"
+31472262,"['vascular disease', ""alzheimer's""]","['Unknown', 'G30']",['flair mri']
+38016622,['aortic arch surgery'],['Unknown'],"['Clinical Data', 'intraoperative decisions', 'mortality and stroke risk factors']"
+36544398,"['unfavorable cervical status', 'high-risk pregnancies']","['Unknown', 'Unknown']",['Clinical Data']
+37001040,['cancer'],['C00'],"['structured clinical data', 'free-text clinical documentation']"
+37555143,"[""alzheimer's""]",['G30'],['diffusion mri']
+38930089,['infertility'],['Unknown'],[]
+35381453,['cardiac events'],['Unknown'],"['Clinical Data', 'imaging data']"
+38563856,"['brain metastases', 'primary cancers']","['Unknown', 'Unknown']",['spatial distribution']
+35021305,"['infertility', 'varicocele']","['Unknown', 'Unknown']","['Clinical Data', 'hormonal data', 'semen analysis data']"

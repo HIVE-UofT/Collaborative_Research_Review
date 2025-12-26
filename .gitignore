@@ -1,0 +1,4 @@
+# Large data files that should not be committed
+data/countries_affiliation_search_approach.csv
+data/data_2025.csv
+data/countries_affiliation_df_with_country.csv

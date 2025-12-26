@@ -1,0 +1,60 @@
+Modality,Count
+imag,309
+text,266
+mri,205
+clinic,98
+ct,72
+ultrasound,67
+comput tomographi,66
+eeg,61
+magnet reson imag,60
+,55
+medic imag,51
+fmri,46
+video,46
+genom,41
+ct scan,40
+ecg,36
+audio,35
+clinic data,31
+machin learn,28
+pet,26
+electron health record,26
+comput tomographi ct,26
+medic,25
+gene express,25
+demograph,25
+xray,22
+null,22
+modal imag,21
+modal text,20
+robot,19
+function magnet reson imag,19
+patholog,18
+function mri,18
+metabolom,18
+age,18
+imag data,17
+radiolog,17
+proteom,16
+neuroimag,16
+numer,15
+cognit,15
+genet,15
+magnet reson imag mri,15
+electron medic record,15
+ct imag,14
+brain imag,14
+histopatholog,14
+echocardiographi,13
+speech,13
+transcriptom,13
+
+
+MRI,363
+CT scans,177
+Ultrasound,88
+EEG,77
+Genomics,69
+
+
